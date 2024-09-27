@@ -42,14 +42,14 @@
 - Developed a shared autonomy framework to decide when and what to query users in scenarios where uncertainty is high, enabling more effective human-robot collaboration.
 - Developed a point-and-click interface for robotic grasping in cluttered environments by generating better grasp poses through object segmentation.
 
-# Experience
+# Work Experience
 
 ## Rehabilitation Research Institute of Singapore, Research Assistant
 
 - Aug 2021 – present
 - Singapore
 - Spearheaded the Robot-Assisted Feeding project, focusing on developing a personalized assistive feeding system.
-- Mentored undergraduate students on final year projects, guiding them through the research process and providing technical support.
+- Mentored seven undergraduate students on final year projects, guiding them through the research process and providing technical support.
 - Assisted in preparing funding proposals to support the project.
 
 ## [ByteDance](https://www.bytedance.com/en/), SaaS Sales Operations Intern

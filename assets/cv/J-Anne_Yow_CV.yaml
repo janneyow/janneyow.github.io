@@ -52,7 +52,7 @@ cv:
           - 'Developed a shared autonomy framework to decide when and what to query users in scenarios where uncertainty is high, enabling more effective human-robot collaboration.'
           - 'Developed a point-and-click interface for robotic grasping in cluttered environments by generating better grasp poses through object segmentation.'
 
-    experience:
+    work experience:
       - company: Rehabilitation Research Institute of Singapore
         position: Research Assistant
         location: Singapore
