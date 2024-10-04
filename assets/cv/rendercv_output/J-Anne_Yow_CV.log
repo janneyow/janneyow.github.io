@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  4 OCT 2024 11:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  4 OCT 2024 11:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -693,7 +693,7 @@ hr8a.pfb></home/janne/miniconda3/envs/rendercv/lib/python3.10/site-packages/ren
 dercv/renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.
 pfb></home/janne/miniconda3/envs/rendercv/lib/python3.10/site-packages/rendercv
 /renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on J-Anne_Yow_CV.pdf (2 pages, 54517 bytes).
+Output written on J-Anne_Yow_CV.pdf (2 pages, 54506 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
