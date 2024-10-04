@@ -78,7 +78,7 @@
 ## [Shared Autonomy of a Robotic Manipulator for Grasping under Human Intent Uncertainty using POMDPs](https://ieeexplore.ieee.org/document/10323205) 
 - Nov 2023
 - ***J-Anne Yow***, Neha P Garg, Wei Tech Ang
-- IEEE Transactions on Robotics (T-RO)
+- IEEE Transactions on Robotics
 
 # Other Publications
 
