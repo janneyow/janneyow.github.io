@@ -83,7 +83,7 @@ cv:
           - Evaluated and built communication pathways of sensors and actuators inside the world's largest indoor strawberry vertical farms to automate the farm.
           - Coordinated and collaborated with contractors of different expertise to integrate systems and solve current infrastructure limitations.
 
-    publications:
+    journal publications:
       - title: '[ExTraCT - Explainable Trajectory Corrections for language-based human-robot interaction using Textual feature descriptions](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1345693/full)'
         authors:
           - '***J-Anne Yow***'
@@ -100,6 +100,15 @@ cv:
           - Wei Tech Ang
         journal: 'IEEE Transactions on Robotics'
         date: 2023-11
+    
+    other publications:
+      - title: 'Adaptive Scooping in Simulation for Assistive Feeding: Meeting User Preferences in Bite Size'
+        authors:
+          - '***J-Anne Yow***'
+          - Neha P Garg
+          - Wei Tech Ang
+        journal: 'Workshop on Interactive Robots and AI for Healthcare, IEEE/RSJ International Conference on Intelligent Robots and Systems'
+        date: 2024-10
 
     service:
       - label: 'Reviewer'
