@@ -68,7 +68,7 @@
 - Evaluated and built communication pathways of sensors and actuators inside the world's largest indoor strawberry vertical farms to automate the farm.
 - Coordinated and collaborated with contractors of different expertise to integrate systems and solve current infrastructure limitations.
 
-# Publications
+# Journal Publications
 
 ## [ExTraCT - Explainable Trajectory Corrections for language-based human-robot interaction using Textual feature descriptions](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1345693/full) 
 - Sept 2024
@@ -79,6 +79,13 @@
 - Nov 2023
 - ***J-Anne Yow***, Neha P Garg, Wei Tech Ang
 - IEEE Transactions on Robotics
+
+# Other Publications
+
+## Adaptive Scooping in Simulation for Assistive Feeding: Meeting User Preferences in Bite Size 
+- Oct 2024
+- ***J-Anne Yow***, Neha P Garg, Wei Tech Ang
+- Workshop on Interactive Robots and AI for Healthcare, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 
 # Service
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  27 SEP 2024 19:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  4 OCT 2024 10:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -665,7 +665,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.412 \end{document}
+l.436 \end{document}
                      [2]
 
 enddocument/afterlastpage: lastpage setting LastPage.
@@ -676,13 +676,13 @@ L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15051 strings out of 476002
- 271935 string characters out of 5788363
+ 15053 strings out of 476002
+ 271950 string characters out of 5788363
  1955496 words of memory out of 5000000
- 36981 multiletter control sequences out of 15000+600000
+ 36982 multiletter control sequences out of 15000+600000
  593978 words of font info for 64 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 75i,7n,79p,386b,659s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,405b,659s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/janne/miniconda3/envs/rendercv/lib/python3.10/site-packages/rendercv/r
 enderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.
 pfb></home/janne/miniconda3/envs/rendercv/lib/python3.10/site-packages/rendercv
@@ -693,10 +693,10 @@ hr8a.pfb></home/janne/miniconda3/envs/rendercv/lib/python3.10/site-packages/ren
 dercv/renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.
 pfb></home/janne/miniconda3/envs/rendercv/lib/python3.10/site-packages/rendercv
 /renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on J-Anne_Yow_CV.pdf (2 pages, 53693 bytes).
+Output written on J-Anne_Yow_CV.pdf (2 pages, 54513 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
- 8 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

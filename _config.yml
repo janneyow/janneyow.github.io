@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: J-Anne
 middle_name: 
 last_name: Yow
-email: janne.yow@ntu.edu.sg
+email: janne001@e.ntu.edu.sg
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   J-Anne's personal website. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
