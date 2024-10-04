@@ -78,14 +78,14 @@
 ## [Shared Autonomy of a Robotic Manipulator for Grasping under Human Intent Uncertainty using POMDPs](https://ieeexplore.ieee.org/document/10323205) 
 - Nov 2023
 - ***J-Anne Yow***, Neha P Garg, Wei Tech Ang
-- IEEE Transactions on Robotics
+- IEEE Transactions on Robotics (T-RO)
 
 # Other Publications
 
 ## Adaptive Scooping in Simulation for Assistive Feeding: Meeting User Preferences in Bite Size 
 - Oct 2024
 - ***J-Anne Yow***, Neha P Garg, Wei Tech Ang
-- Workshop on Interactive Robots and AI for Healthcare, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+- Workshop on Interactive Robots and AI for Healthcare, IEEE/RSJ International Conference on Intelligent Robots and Systems
 
 # Service
 
