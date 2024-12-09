@@ -48,9 +48,9 @@
 
 - Aug 2021 – present
 - Singapore
-- Spearheaded the Robot-Assisted Feeding project, focusing on developing a personalized assistive feeding system.
-- Mentored seven undergraduate students on final year projects, guiding them through the research process and providing technical support.
-- Assisted in preparing funding proposals to support the project.
+- Led the development of a personalized robot-assisted feeding system, ensuring ethical compliance and timely procurement of resources to advance project milestones.
+- Mentored seven undergraduate students on final year projects, providing strategic guidance in research direction, methodology and technical problem-solving.
+- Contributed to preparing funding proposals and established research collaborations with overseas institutes.
 
 ## [ByteDance](https://www.bytedance.com/en/), SaaS Sales Operations Intern
 
@@ -82,14 +82,14 @@
 
 # Other Publications
 
-## Adaptive Scooping in Simulation for Assistive Feeding: Meeting User Preferences in Bite Size 
+## Adaptive Scooping in Simulation for Assistive Feeding: Meeting User Preferences in Bite Size (Best Paper Award) 
 - Oct 2024
 - ***J-Anne Yow***, Neha P Garg, Wei Tech Ang
 - Workshop on Interactive Robots and AI for Healthcare, IEEE/RSJ International Conference on Intelligent Robots and Systems
 
 # Service
 
-- Reviewer: IEEE Robotics and Automation Letters
+- Reviewer: IEEE Robotics and Automation Letters (RAL), IEEE Internationl Conference on Robotics and Automation (ICRA)
 # Skills
 
 - Programming Languages: Python, C/C++, R, LaTeX, SQL
