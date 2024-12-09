@@ -59,9 +59,9 @@ cv:
         start_date: 2021-08
         end_date: present
         highlights:
-          - Spearheaded the Robot-Assisted Feeding project, focusing on developing a personalized assistive feeding system.
-          - Mentored seven undergraduate students on final year projects, guiding them through the research process and providing technical support.
-          - Assisted in preparing funding proposals to support the project.
+          - Led the development of a personalized robot-assisted feeding system, ensuring ethical compliance and timely procurement of resources to advance project milestones.
+          - Mentored seven undergraduate students on final year projects, providing strategic guidance in research direction, methodology and technical problem-solving.
+          - Contributed to preparing funding proposals and established research collaborations with overseas institutes.
 
       - company: '[ByteDance](https://www.bytedance.com/en/)'
         position: SaaS Sales Operations Intern
@@ -102,7 +102,7 @@ cv:
         date: 2023-11
     
     other publications:
-      - title: 'Adaptive Scooping in Simulation for Assistive Feeding: Meeting User Preferences in Bite Size'
+      - title: 'Adaptive Scooping in Simulation for Assistive Feeding: Meeting User Preferences in Bite Size (Best Paper Award)'
         authors:
           - '***J-Anne Yow***'
           - Neha P Garg
@@ -112,7 +112,7 @@ cv:
 
     service:
       - label: 'Reviewer'
-        details: IEEE Robotics and Automation Letters
+        details: IEEE Robotics and Automation Letters (RAL), IEEE Internationl Conference on Robotics and Automation (ICRA) 
 
     skills:
       - label: Programming Languages
