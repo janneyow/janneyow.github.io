@@ -102,6 +102,24 @@ cv:
         date: 2023-11
     
     other publications:
+      - title: 'Simulating Safe Bite Transfer in Robot-Assisted Feeding wtih a Soft Head and Articulated Jaw'
+        authors:
+          - Yi Heng San
+          - Vasanth Ravichandram
+          - '***J-Anne Yow***'
+          - Sherwin Chan
+          - Wei Tech Ang
+        journal: 'International Conference on Rehabilitation Robotics (ICORR)'
+        date: 2025-05
+      
+      - title: 'Design of a Breakaway Utensil Attachment for Enhanced Safety in Robot-Assisted Feeding'
+        authors:
+          - Hau Wen Chang
+          - '***J-Anne Yow***'
+          - Wei Tech Ang
+        journal: 'International Conference on Rehabilitation Robotics (ICORR)'
+        date: 2025-05
+
       - title: 'Adaptive Scooping in Simulation for Assistive Feeding: Meeting User Preferences in Bite Size (Best Paper Award)'
         authors:
           - '***J-Anne Yow***'
