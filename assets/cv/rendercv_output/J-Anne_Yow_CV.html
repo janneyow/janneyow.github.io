@@ -12,6 +12,14 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
         integrity="sha512-Pmhg2i/F7+5+7SsdoUqKeH7UAZoVMYb1sxGOoJ0jWXAEHP0XV2H4CITyK267eHWp2jpj7rtqWNkmEOw1tNyYpg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.css" integrity="sha384-PDbUeNCuE6bOPudPOgFyIUEy3UJawJVwr3XlGO90FIuf5qNIoTLSgOJo/dC2ZXV/" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.js" integrity="sha384-VkqWq8xtm5YQk1BBXczQ8/Sx+DlCzF8cuS43bZwmtVXzRFtyLTqTCdP7MKmKo+KN" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, {delimiters: [{ left: '$$',  right: '$$',  display: false }]});"></script>
     <style>
         .markdown-body {
             box-sizing: border-box;
@@ -33,7 +41,7 @@
     <article class="markdown-body">
         <h1>J-Anne Yow's CV</h1>
         <ul>
-        <li>Email: <a href="mailto:janne.yow@ntu.edu.sg">janne.yow@ntu.edu.sg</a></li>
+        <li>Email: <a href="mailto:janne.yow@gmail.com">janne.yow@gmail.com</a></li>
         <li>Location: Singapore</li>
         <li>Website: <a href="https://janneyow.github.io/">janneyow.github.io</a></li>
         <li>LinkedIn: <a href="https://linkedin.com/in/janneyow">janneyow</a></li>
@@ -42,6 +50,7 @@
         <h2><a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, Ph.D. in Mechanical Engineering</h2>
         <ul>
         <li>Sept 2021 – present</li>
+        <li>Singapore</li>
         <li><strong>Supervisor:</strong> Prof Ang Wei Tech</li>
         <li><strong>Proposed Dissertation:</strong> Enhancing Human-Robot Interaction for Personalised Robot Behaviour in Assistive Feeding</li>
         <li><strong>Research Interests:</strong> Human-Robot Interaction, Machine Learning, Foundation Models, Continual Learning</li>
@@ -49,21 +58,17 @@
         <h2><a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, BE in Mechanical Engineering with a Second Major in Business</h2>
         <ul>
         <li>Aug 2017 – May 2021</li>
+        <li>Singapore</li>
         <li><strong>GPA:</strong> 4.92/5.00, Dean's List every Academic Year</li>
         <li><strong>Awards:</strong> <a href="https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes">Dr Leung Shiu Kee Gold Medal Award</a>, ASEAN Undergraduate Scholarship</li>
-        </ul>
-        <h2><a href="https://www.hci.edu.sg/">Hwa Chong Institution</a>, A-Levels</h2>
-        <ul>
-        <li>Jan 2015 – Nov 2016</li>
-        <li><strong>Awards:</strong> Hwa Chong Diploma with Distinction, ASEAN Scholarship</li>
         </ul>
         <h1>Research Projects</h1>
         <h2>Robot-Assisted Feeding</h2>
         <ul>
         <li>2022 -- present</li>
-        <li>Implementing an end-to-end pipeline for robot-assisted feeding, including bite sequencing, food acquisition with a spoon, and transferring food to the user.</li>
-        <li>Developing a personalized assistive feeding system that adapts to user preferences and needs, leveraging language corrections to modify robot actions.</li>
-        <li>Developing a goal-conditioned scooping policy to scoop a target amount of food while considering different food properties.</li>
+        <li>Implemented an end-to-end pipeline for robot-assisted feeding, including bite sequencing, food acquisition with a spoon, and transferring food to the user.</li>
+        <li>Developed a personalized assistive feeding system that adapts to user preferences and needs, leveraging language corrections to modify robot actions.</li>
+        <li>Developed a goal-conditioned scooping policy to scoop a target amount of food while considering different food properties.</li>
         <li>Exploring the integration of foundation models in robotics for more adaptive and intelligent robots.</li>
         </ul>
         <h2>Grasping in Clutter</h2>
@@ -73,7 +78,7 @@
         <li>Developed a point-and-click interface for robotic grasping in cluttered environments by generating better grasp poses through object segmentation.</li>
         </ul>
         <h1>Work Experience</h1>
-        <h2>Rehabilitation Research Institute of Singapore, Research Assistant</h2>
+        <h2>Nanyang Techcnological University, Research Assistant</h2>
         <ul>
         <li>Aug 2021 – present</li>
         <li>Singapore</li>
@@ -131,11 +136,11 @@
         </ul>
         <h1>Service</h1>
         <ul>
-        <li>Reviewer: IEEE Robotics and Automation Letters (RAL), IEEE Internationl Conference on Robotics and Automation (ICRA)</li>
+        <li>Reviewer: IEEE Robotics and Automation Letters (RAL), IEEE International Conference on Robotics and Automation (ICRA)</li>
         </ul>
         <h1>Skills</h1>
         <ul>
-        <li>Programming Languages: Python, C/C++, R, LaTeX, SQL</li>
+        <li>Programming: Python, C/C++, R, LaTeX, SQL</li>
         <li>Robotics: Machine Learning, ROS, MuJoCo, Computer Vision, Linux</li>
         <li>Languages: English, Chinese, Malay</li>
         </ul>

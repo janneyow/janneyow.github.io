@@ -1,6 +1,6 @@
 # J-Anne Yow's CV
 
-- Email: [janne.yow@ntu.edu.sg](mailto:janne.yow@ntu.edu.sg)
+- Email: [janne.yow@gmail.com](mailto:janne.yow@gmail.com)
 - Location: Singapore
 - Website: [janneyow.github.io](https://janneyow.github.io/)
 - LinkedIn: [janneyow](https://linkedin.com/in/janneyow)
@@ -11,6 +11,7 @@
 ## [Nanyang Technological University](https://www.ntu.edu.sg/), Ph.D. in Mechanical Engineering
 
 - Sept 2021 – present
+- Singapore
 - **Supervisor:** Prof Ang Wei Tech
 - **Proposed Dissertation:** Enhancing Human-Robot Interaction for Personalised Robot Behaviour in Assistive Feeding
 - **Research Interests:** Human-Robot Interaction, Machine Learning, Foundation Models, Continual Learning
@@ -18,22 +19,18 @@
 ## [Nanyang Technological University](https://www.ntu.edu.sg/), BE in Mechanical Engineering with a Second Major in Business
 
 - Aug 2017 – May 2021
+- Singapore
 - **GPA:** 4.92/5.00, Dean's List every Academic Year
 - **Awards:** [Dr Leung Shiu Kee Gold Medal Award](https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes), ASEAN Undergraduate Scholarship
-
-## [Hwa Chong Institution](https://www.hci.edu.sg/), A-Levels
-
-- Jan 2015 – Nov 2016
-- **Awards:** Hwa Chong Diploma with Distinction, ASEAN Scholarship
 
 # Research Projects
 
 ## Robot-Assisted Feeding
 
 - 2022 -- present
-- Implementing an end-to-end pipeline for robot-assisted feeding, including bite sequencing, food acquisition with a spoon, and transferring food to the user.
-- Developing a personalized assistive feeding system that adapts to user preferences and needs, leveraging language corrections to modify robot actions.
-- Developing a goal-conditioned scooping policy to scoop a target amount of food while considering different food properties.
+- Implemented an end-to-end pipeline for robot-assisted feeding, including bite sequencing, food acquisition with a spoon, and transferring food to the user.
+- Developed a personalized assistive feeding system that adapts to user preferences and needs, leveraging language corrections to modify robot actions.
+- Developed a goal-conditioned scooping policy to scoop a target amount of food while considering different food properties.
 - Exploring the integration of foundation models in robotics for more adaptive and intelligent robots.
 
 ## Grasping in Clutter
@@ -44,7 +41,7 @@
 
 # Work Experience
 
-## Rehabilitation Research Institute of Singapore, Research Assistant
+## Nanyang Techcnological University, Research Assistant
 
 - Aug 2021 – present
 - Singapore
@@ -99,9 +96,9 @@
 
 # Service
 
-- Reviewer: IEEE Robotics and Automation Letters (RAL), IEEE Internationl Conference on Robotics and Automation (ICRA)
+- Reviewer: IEEE Robotics and Automation Letters (RAL), IEEE International Conference on Robotics and Automation (ICRA)
 # Skills
 
-- Programming Languages: Python, C/C++, R, LaTeX, SQL
+- Programming: Python, C/C++, R, LaTeX, SQL
 - Robotics: Machine Learning, ROS, MuJoCo, Computer Vision, Linux
 - Languages: English, Chinese, Malay
