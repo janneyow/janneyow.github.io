@@ -19,8 +19,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a PhD candidate at Nanyang Technological University, Singapore, advised by Prof. Ang Wei Tech. My research focuses on developing a robot-assisted feeding system that personalizes actions, such as modifying bite size, based on user preferences and language corrections. I am also exploring the integration of foundation models into robotics for more adaptive and intelligent systems.
+I am a PhD candidate at Nanyang Technological University, Singapore, advised by Prof. Ang Wei Tech. My work focuses on building adaptive robotic systems that learn from and respond to user interaction. I am developing a robot-assisted feeding system that personalizes its actions, such as modifying bite size, based on user preferences and language feedback. I also explore how foundation models can enhance policy learning and robot adaptability, enabling more intelligent and responsive interactions.
 
-My research interests include human-robot interaction and machine learning. I am particularly interested in how robots can better understand human intent and behavior, and learn to act in ways that are intuitive and responsive to user needs. My goal is to develop robots that can offer personalized assistance and continually improve their assistance through experience through lifelong learning.
+My research lies at the intersection of human-robot interaction and machine learning. I am particularly interested in how robots can better understand human intent and behavior, and respond in a manner that is both intuitive and safe. My goal is to develop robots that can provide meaningful assistance and improve continually through real-world interaction.
 
-When I'm not working on robots, I enjoy creative pursuits like crocheting, knitting, and 3D printing. I'm drawn to aesthetic design and I believe in making things not just functional but also beautiful.
+When I'm not working on robots, I enjoy creative, hands-on work — from crocheting and knitting to 3D printing and tinkering. I particularly appreciate design that is both aesthetic and purposeful, and I believe the best solutions are not only technically sound, but also elegant, intuitive, and human-centered.

@@ -3,7 +3,7 @@
 
 #let name = "J-Anne Yow"
 #let locale-catalog-page-numbering-style = context { "J-Anne Yow - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Apr 2025"
+#let locale-catalog-last-updated-date-style = "Last updated Apr 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.2em
@@ -28,14 +28,14 @@
 #let design-text-alignment = "justified"
 #let design-text-date-and-location-column-alignment = right
 #let design-header-photo-width = 3.5cm
-#let design-header-use-icons-for-connections = false
+#let design-header-use-icons-for-connections = true
 #let design-header-name-font-family = "XCharter"
 #let design-header-name-font-size = 25pt
 #let design-header-name-bold = false
 #let design-header-connections-font-family = "XCharter"
 #let design-header-vertical-space-between-name-and-connections = 0.7cm
 #let design-header-vertical-space-between-connections-and-first-section = 0.7cm
-#let design-header-use-icons-for-connections = false
+#let design-header-use-icons-for-connections = true
 #let design-header-horizontal-space-between-connections = 0.5cm
 #let design-header-separator-between-connections = "|"
 #let design-header-alignment = center
@@ -46,7 +46,7 @@
 #let design-highlights-vertical-space-between-highlights = 0.19cm
 #let design-highlights-horizontal-space-between-bullet-and-highlights = 0.3em
 #let design-entries-vertical-space-between-entries = 0.4cm
-#let design-entries-date-and-location-width = 4.15cm
+#let design-entries-date-and-location-width = 3.5cm
 #let design-entries-allow-page-break-in-entries = true
 #let design-entries-horizontal-space-between-columns = 0.1cm
 #let design-entries-left-and-right-margin = 0cm
@@ -451,13 +451,21 @@
 
 // Print connections:
 #let connections-list = (
-  [Singapore],
-  [#box(original-link("mailto:janne.yow@gmail.com")[janne.yow\@gmail.com])],
-  [#box(original-link("https://janneyow.github.io/")[janneyow.github.io])],
-  [#box(original-link("https://linkedin.com/in/janneyow")[linkedin.com\/in\/janneyow])],
+  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Singapore],
+  [#box(original-link("mailto:janne.yow@gmail.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)janne.yow\@gmail.com])],
+  [#box(original-link("https://janneyow.github.io/")[#fa-icon("link", size: 0.9em) #h(0.05cm)janneyow.github.io])],
+  [#box(original-link("https://linkedin.com/in/janneyow")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)janneyow])],
 )
 #connections(connections-list)
 
+
+
+== Summary
+
+
+#one-col-entry(
+  content: [Final-year PhD researcher in Robotics at NTU Singapore focused on building adaptive robotic systems that learn from and respond to user interaction. Experienced in integrating reinforcement learning, control strategies, and foundation models into end-to-end robotic systems. Passionate about designing generalizable, user-informed robots, and eager to further apply foundation models in policy learning to build more adaptive and scalable robotic systems.]
+)
 
 
 == Education
@@ -466,16 +474,18 @@
 // YES DATE, NO DEGREE
 #two-col-entry(
   left-content: [
-    #link("https://www.ntu.edu.sg/")[#strong[Nanyang Technological University]], Ph.D. in Mechanical Engineering -- Singapore
+    #link("https://www.ntu.edu.sg/")[#strong[Nanyang Technological University]], Singapore
+
+Ph.D. in Mechanical Engineering
   ],
   right-content: [
-    Sept 2021 – present
+    Sept 2021 -- Aug 2025 \(Expected\)
   ],
 )
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[Supervisor:] Prof Ang Wei Tech],[#strong[Proposed Dissertation:] Enhancing Human-Robot Interaction for Personalised Robot Behaviour in Assistive Feeding],[#strong[Research Interests:] Human-Robot Interaction, Machine Learning, Foundation Models, Continual Learning],)
+    #v(design-highlights-top-margin);#highlights([#strong[Supervisor:] Prof Ang Wei Tech],[#strong[Proposed Dissertation:] Enhancing Human-Robot Interaction for Personalized Robot Behaviour in Assistive Feeding],[#strong[Research Interests:] Human-Robot Interaction, Machine Learning, Foundation Models, Continual Learning],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -487,7 +497,9 @@
 // YES DATE, NO DEGREE
 #two-col-entry(
   left-content: [
-    #link("https://www.ntu.edu.sg/")[#strong[Nanyang Technological University]], BE in Mechanical Engineering with a Second Major in Business -- Singapore
+    #link("https://www.ntu.edu.sg/")[#strong[Nanyang Technological University]], Singapore
+
+BE in Mechanical Engineering with a Second Major in Business
   ],
   right-content: [
     Aug 2017 – May 2021
@@ -506,7 +518,7 @@
 
 
 
-== Research Projects
+== Research Experience
 
 
 #two-col-entry(
@@ -519,7 +531,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Implemented an end-to-end pipeline for robot-assisted feeding, including bite sequencing, food acquisition with a spoon, and transferring food to the user.],[Developed a personalized assistive feeding system that adapts to user preferences and needs, leveraging language corrections to modify robot actions.],[Developed a goal-conditioned scooping policy to scoop a target amount of food while considering different food properties.],[Exploring the integration of foundation models in robotics for more adaptive and intelligent robots.],)
+    #v(design-highlights-top-margin);#highlights([Led the development of an end-to-end robot-assisted feeding system, including bite sequencing, adaptive food acquisition and safe bite transfer.],[Designed a personalized feeding pipeline that adapts to user preferences using verbal corrections, leveraging foundation models to interpret and respond to user feedback.],[Developed a goal-conditioned scooping policy using reinforcement learning to acquire targeted bite sizes across diverse food properties.],[Preparing the system for real-world deployment and user trials with elderly users to better understand user preferences and refine robot behavior for safe, effective assistive feeding.],)
   ],
 )
 
@@ -534,7 +546,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed a shared autonomy framework to decide when and what to query users in scenarios where uncertainty is high, enabling more effective human-robot collaboration.],[Developed a point-and-click interface for robotic grasping in cluttered environments by generating better grasp poses through object segmentation.],)
+    #v(design-highlights-top-margin);#highlights([Developed a point-and-click interface for supervised pick-and-place in cluttered environments, integrating object segmentation and grasp cycling for improved grasp selection.],[Developed a POMDP-based shared autonomy framework that queries users under intent uncertainty, improving goal disambiguation, enabling more effective human-robot collaboration.],)
   ],
 )
 
@@ -545,7 +557,7 @@
 
 #two-col-entry(
   left-content: [
-    #strong[Research Assistant], Nanyang Techcnological University -- Singapore
+    #strong[Research Assistant], Nanyang Technological University -- Singapore
   ],
   right-content: [
     Aug 2021 – present
@@ -553,7 +565,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led the development of a personalized robot-assisted feeding system, ensuring ethical compliance and timely procurement of resources to advance project milestones.],[Mentored seven undergraduate students on final year projects, providing strategic guidance in research direction, methodology and technical problem-solving.],[Contributed to preparing funding proposals and established research collaborations with overseas institutes.],)
+    #v(design-highlights-top-margin);#highlights([Led the development of a personalized robot-assisted feeding system, integrating perception, control, and language-based user interaction for adaptive assistance.],[Managed project planning, resource coordination, and ethical and safety compliance for system development and user trials.],[Contributed to funding proposals and helped initiate research collaborations with overseas institutes.],[Scoped and mentored undergraduate final-year projects, providing guidance on research direction, methodology and technical implementation.],)
   ],
 )
 
@@ -568,7 +580,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Built and optimized dashboards for the Lark APAC team, improving data-driven decision-making and operational insights.],[Enhanced data quality and integrity in Salesforce.com, streamlining processes and ensuring consistency across regional teams.],[Conducted analysis on daily active user \(DAU\) trends and tenant health scores, providing product-market fit understanding and insights for the go-to-market strategy.],)
+    #v(design-highlights-top-margin);#highlights([Designed and optimized dashboards to support operational insights and data-driven decision-making across the Lark APAC team.],[Improved Salesforce data quality and streamlined workflows, enhancing consistency across regional business units.],[Analyzed user behaviour trends \(e.g., daily active users \(DAU\), tenant health scores\) to support go-to-market strategy and assess product-market fit.],)
   ],
 )
 
@@ -583,7 +595,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Oversaw a project which involved integrating farm systems and forecasting future infrastructure requirements to minimize operational risks.],[Evaluated and built communication pathways of sensors and actuators inside the world's largest indoor strawberry vertical farms to automate the farm.],[Coordinated and collaborated with contractors of different expertise to integrate systems and solve current infrastructure limitations.],)
+    #v(design-highlights-top-margin);#highlights([Oversaw a project to prepare infrastructure for future system expansion, balancing technical requirements and operational constraints.],[Planned and implemented sensor-actuator systems to support automation across farm operations, including wiring, integration, and layout decisions.],[Collaborated with cross-functional contractors to resolve infrastructure limitations and improve farm operations.],)
   ],
 )
 
@@ -619,7 +631,7 @@
 #one-col-entry(content:[
   #v(design-highlights-top-margin);#strong[#emph[J-Anne Yow]], Neha P Garg, Wei Tech Ang
 
-#v(design-highlights-top-margin - design-text-leading)IEEE Transactions on Robotics])
+#v(design-highlights-top-margin - design-text-leading)IEEE Transactions on Robotics \(T-RO\)])
 
 
 
@@ -628,7 +640,7 @@
 
 #two-col-entry(
   left-content: [
-    #strong[Simulating Safe Bite Transfer in Robot-Assisted Feeding wtih a Soft Head and Articulated Jaw]
+    #strong[Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw]
 
   ],
   right-content: [
@@ -684,11 +696,11 @@
 
 
 #one-col-entry(
-  content: [#strong[Programming:] Python, C\/C++, R, LaTeX, SQL]
+  content: [#strong[Programming:] Python, C\/C++, R, SQL]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Robotics:] Machine Learning, ROS, MuJoCo, Computer Vision, Linux]
+  content: [#strong[Robotics & Tools:] ROS, MuJoCo, Motion Planning, Simulation, Robot Learning, Computer Vision, Linux]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
