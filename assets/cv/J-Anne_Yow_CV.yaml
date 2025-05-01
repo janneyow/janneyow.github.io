@@ -9,18 +9,22 @@ cv:
       username: janneyow
 
   sections:
+    Summary:
+      # - Final-year PhD researcher in Robotics at NTU Singapore specializing in human-robot interaction and personalized robot behavior. Experienced in integrating reinforcement learning, control strategies, and foundation models into end-to-end robotic systems to adapt robot actions based on user feedback. Passionate about creating robots that respond intuitively to users, enabling more responsive and effective assistance in real-world settings.
+      - Final-year PhD researcher in Robotics at NTU Singapore focused on building adaptive robotic systems that learn from and respond to user interaction. Experienced in integrating reinforcement learning, control strategies, and foundation models into end-to-end robotic systems. Passionate about designing generalizable, user-informed robots, and eager to further apply foundation models in policy learning to build more adaptive and scalable robotic systems.
+
     education:
       - institution: '[Nanyang Technological University](https://www.ntu.edu.sg/)'
         area: Mechanical Engineering
         degree: Ph.D.
-        date:
+        date: Sept 2021 -- Aug 2025 (Expected)
         start_date: 2021-09
         end_date: present
         location: Singapore
         summary: 
         highlights:
           - '**Supervisor:** Prof Ang Wei Tech'
-          - '**Proposed Dissertation:** Enhancing Human-Robot Interaction for Personalised Robot Behaviour in Assistive Feeding'
+          - '**Proposed Dissertation:** Enhancing Human-Robot Interaction for Personalized Robot Behaviour in Assistive Feeding'
           - '**Research Interests:** Human-Robot Interaction, Machine Learning, Foundation Models, Continual Learning'
       
       - institution: '[Nanyang Technological University](https://www.ntu.edu.sg/)'
@@ -35,31 +39,32 @@ cv:
           - "**GPA:** 4.92/5.00, Dean's List every Academic Year"
           - '**Awards:** [Dr Leung Shiu Kee Gold Medal Award](https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes), ASEAN Undergraduate Scholarship'
     
-    research projects:
+    research experience:
       - name: 'Robot-Assisted Feeding'
         date: 2022 -- present
         highlights:
-          - 'Implemented an end-to-end pipeline for robot-assisted feeding, including bite sequencing, food acquisition with a spoon, and transferring food to the user.'
-          - 'Developed a personalized assistive feeding system that adapts to user preferences and needs, leveraging language corrections to modify robot actions.'
-          - 'Developed a goal-conditioned scooping policy to scoop a target amount of food while considering different food properties.'
-          - 'Exploring the integration of foundation models in robotics for more adaptive and intelligent robots.'
+          - 'Led the development of an end-to-end robot-assisted feeding system, including bite sequencing, adaptive food acquisition and safe bite transfer.'
+          - 'Designed a personalized feeding pipeline that adapts to user preferences using verbal corrections, leveraging foundation models to interpret and respond to user feedback.'
+          - 'Developed a goal-conditioned scooping policy using reinforcement learning to acquire targeted bite sizes across diverse food properties.'
+          - 'Preparing the system for real-world deployment and user trials with elderly users to better understand user preferences and refine robot behavior for safe, effective assistive feeding.'
 
       - name: 'Grasping in Clutter'
         date: 2020 -- 2023
         highlights:
-          - 'Developed a shared autonomy framework to decide when and what to query users in scenarios where uncertainty is high, enabling more effective human-robot collaboration.'
-          - 'Developed a point-and-click interface for robotic grasping in cluttered environments by generating better grasp poses through object segmentation.'
+          - 'Developed a point-and-click interface for supervised pick-and-place in cluttered environments, integrating object segmentation and grasp cycling for improved grasp selection.'
+          - 'Developed a POMDP-based shared autonomy framework that queries users under intent uncertainty, improving goal disambiguation, enabling more effective human-robot collaboration.'
     
     work experience:
-      - company: Nanyang Techcnological University
+      - company: Nanyang Technological University
         position: Research Assistant
         location: Singapore
         start_date: 2021-08
         end_date: present
         highlights:
-          - Led the development of a personalized robot-assisted feeding system, ensuring ethical compliance and timely procurement of resources to advance project milestones.
-          - Mentored seven undergraduate students on final year projects, providing strategic guidance in research direction, methodology and technical problem-solving.
-          - Contributed to preparing funding proposals and established research collaborations with overseas institutes.
+          - Led the development of a personalized robot-assisted feeding system, integrating perception, control, and language-based user interaction for adaptive assistance.
+          - Managed project planning, resource coordination, and ethical and safety compliance for system development and user trials.
+          - Contributed to funding proposals and helped initiate research collaborations with overseas institutes.
+          - Scoped and mentored undergraduate final-year projects, providing guidance on research direction, methodology and technical implementation.
 
       - company: '[ByteDance](https://www.bytedance.com/en/)'
         position: SaaS Sales Operations Intern
@@ -67,9 +72,9 @@ cv:
         start_date: 2020-05
         end_date: 2020-07
         highlights:
-          - Built and optimized dashboards for the Lark APAC team, improving data-driven decision-making and operational insights.
-          - Enhanced data quality and integrity in Salesforce.com, streamlining processes and ensuring consistency across regional teams.
-          - Conducted analysis on daily active user (DAU) trends and tenant health scores, providing product-market fit understanding and insights for the go-to-market strategy.
+          - Designed and optimized dashboards to support operational insights and data-driven decision-making across the Lark APAC team.
+          - Improved Salesforce data quality and streamlined workflows, enhancing consistency across regional business units.
+          - Analyzed user behaviour trends (e.g., daily active users (DAU), tenant health scores) to support go-to-market strategy and assess product-market fit.
 
       - company: '[Oishii](https://oishii.com/)'
         position: Engineering Intern
@@ -77,9 +82,9 @@ cv:
         start_date: 2020-01
         end_date: 2020-03
         highlights:
-          - Oversaw a project which involved integrating farm systems and forecasting future infrastructure requirements to minimize operational risks.
-          - Evaluated and built communication pathways of sensors and actuators inside the world's largest indoor strawberry vertical farms to automate the farm.
-          - Coordinated and collaborated with contractors of different expertise to integrate systems and solve current infrastructure limitations.
+          - Oversaw a project to prepare infrastructure for future system expansion, balancing technical requirements and operational constraints. 
+          - Planned and implemented sensor-actuator systems to support automation across farm operations, including wiring, integration, and layout decisions.
+          - Collaborated with cross-functional contractors to resolve infrastructure limitations and improve farm operations.
 
     journal publications:
       - title: '[ExTraCT - Explainable Trajectory Corrections for language-based human-robot interaction using Textual feature descriptions](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1345693/full)'
@@ -96,11 +101,11 @@ cv:
           - '***J-Anne Yow***'
           - Neha P Garg
           - Wei Tech Ang
-        journal: 'IEEE Transactions on Robotics'
+        journal: 'IEEE Transactions on Robotics (T-RO)'
         date: 2023-11
     
     other publications:
-      - title: 'Simulating Safe Bite Transfer in Robot-Assisted Feeding wtih a Soft Head and Articulated Jaw'
+      - title: 'Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw'
         authors:
           - Yi Heng San
           - Vasanth Ravichandram
@@ -132,9 +137,9 @@ cv:
     
     skills:
       - label: Programming
-        details: Python, C/C++, R, LaTeX, SQL
-      - label: Robotics
-        details: Machine Learning, ROS, MuJoCo, Computer Vision, Linux
+        details: Python, C/C++, R, SQL
+      - label: Robotics & Tools
+        details: ROS, MuJoCo, Motion Planning, Simulation, Robot Learning, Computer Vision, Linux
       - label: Languages
         details: English, Chinese, Malay
 
@@ -174,7 +179,7 @@ design:
     horizontal_space_between_connections: 0.5cm
     connections_font_family: XCharter
     separator_between_connections: '|'
-    use_icons_for_connections: false
+    use_icons_for_connections: true
     alignment: center
   section_titles:
     type: with-parial-line
@@ -187,7 +192,7 @@ design:
     vertical_space_below: 0.3cm
     line_type: with-full-line
   entries:
-    date_and_location_width: 4.15cm
+    date_and_location_width: 3.5cm
     left_and_right_margin: 0cm
     horizontal_space_between_columns: 0.1cm
     vertical_space_between_entries: 0.4cm
@@ -206,7 +211,10 @@ design:
     one_line_entry:
       template: '**LABEL:** DETAILS'
     education_entry:
-      main_column_first_row_template: '**INSTITUTION**, DEGREE in AREA -- LOCATION'
+      # main_column_first_row_template: '**INSTITUTION**, DEGREE in AREA -- LOCATION'
+      main_column_first_row_template: |-
+        **INSTITUTION**, LOCATION
+        DEGREE in AREA
       degree_column_template:
       degree_column_width: 1cm
       main_column_second_row_template: |-
@@ -241,7 +249,7 @@ locale:
   language: en
   phone_number_format: national
   page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  last_updated_date_template: Last updated in TODAY
+  last_updated_date_template: Last updated TODAY
   date_template: MONTH_ABBREVIATION YEAR
   month: month
   months: months
