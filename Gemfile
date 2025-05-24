@@ -17,10 +17,12 @@ group :jekyll_plugins do
     gem 'jekyll-tabs'
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
+    gem 'jekyll-polyglot'
     gem 'jemoji'
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
+    gem "observer"
 end
 group :other_plugins do
     gem 'css_parser'
