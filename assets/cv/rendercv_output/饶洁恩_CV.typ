@@ -1,9 +1,9 @@
 
 #import "@preview/fontawesome:0.5.0": fa-icon
 
-#let name = "J-Anne Yow"
-#let locale-catalog-page-numbering-style = context { "J-Anne Yow - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated Apr 2025"
+#let name = "饶洁恩"
+#let locale-catalog-page-numbering-style = context { "饶洁恩 - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
+#let locale-catalog-last-updated-date-style = "最近更新于 2025.04"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.2em
@@ -13,7 +13,7 @@
 #let design-colors-name = rgb(0, 0, 0)
 #let design-colors-connections = rgb(0, 0, 0)
 #let design-colors-links = rgb(0, 0, 0)
-#let design-section-titles-font-family = "XCharter"
+#let design-section-titles-font-family = "Noto Sans"
 #let design-section-titles-bold = true
 #let design-section-titles-line-thickness = 0.5pt
 #let design-section-titles-font-size = 1.2em
@@ -24,15 +24,15 @@
 #let design-links-use-external-link-icon = false
 #let design-text-font-size = 10pt
 #let design-text-leading = 0.6em
-#let design-text-font-family = "XCharter"
+#let design-text-font-family = "Noto Sans"
 #let design-text-alignment = "justified"
 #let design-text-date-and-location-column-alignment = right
 #let design-header-photo-width = 3.5cm
 #let design-header-use-icons-for-connections = true
-#let design-header-name-font-family = "XCharter"
+#let design-header-name-font-family = "Noto Sans"
 #let design-header-name-font-size = 25pt
 #let design-header-name-bold = false
-#let design-header-connections-font-family = "XCharter"
+#let design-header-connections-font-family = "Noto Sans"
 #let design-header-vertical-space-between-name-and-connections = 0.7cm
 #let design-header-vertical-space-between-connections-and-first-section = 0.7cm
 #let design-header-use-icons-for-connections = true
@@ -46,7 +46,7 @@
 #let design-highlights-vertical-space-between-highlights = 0.19cm
 #let design-highlights-horizontal-space-between-bullet-and-highlights = 0.3em
 #let design-entries-vertical-space-between-entries = 0.4cm
-#let design-entries-date-and-location-width = 3.5cm
+#let design-entries-date-and-location-width = 3.3cm
 #let design-entries-allow-page-break-in-entries = true
 #let design-entries-horizontal-space-between-columns = 0.1cm
 #let design-entries-left-and-right-margin = 0cm
@@ -447,11 +447,11 @@
   )
 ]
 
-= J-Anne Yow
+= 饶洁恩
 
 // Print connections:
 #let connections-list = (
-  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Singapore],
+  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)新加坡],
   [#box(original-link("mailto:janne.yow@gmail.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)janne.yow\@gmail.com])],
   [#box(original-link("https://janneyow.github.io/")[#fa-icon("link", size: 0.9em) #h(0.05cm)janneyow.github.io])],
   [#box(original-link("https://linkedin.com/in/janneyow")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)janneyow])],
@@ -460,32 +460,32 @@
 
 
 
-== Summary
+== 简介
 
 
 #one-col-entry(
-  content: [Final-year PhD researcher in Robotics at NTU Singapore focused on building adaptive robotic systems that learn from and respond to user interaction. Experienced in integrating reinforcement learning, control strategies, and foundation models into end-to-end robotic systems. Passionate about designing generalizable, user-informed robots, and eager to further apply foundation models in policy learning to build more adaptive and scalable robotic systems.]
+  content: [南洋理工大学（NTU）博士生，在洪伟德教授（Prof. Ang Wei Tech）指导下，专注于开发能够从用户交互中学习与响应的自适应机器人系统。擅长将强化学习、控制策略与大模型集成到端到端机器人系统中。热衷于设计通用化、以用户为中心的机器人，并致力于进一步应用大模型于策略学习，打造更加智能与可扩展的机器人系统。]
 )
 
 
-== Education
+== 教育背景
 
 
 // YES DATE, NO DEGREE
 #two-col-entry(
   left-content: [
-    #link("https://www.ntu.edu.sg/")[#strong[Nanyang Technological University]], Singapore
+    #link("https://www.ntu.edu.sg/")[#strong[南洋理工大学]], 新加坡
 
-Ph.D. in Mechanical Engineering
+博士 — 机械工程
   ],
   right-content: [
-    Sept 2021 -- Aug 2025 \(Expected\)
+    2021.09 -- 2025.08 \(预计\)
   ],
 )
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[Supervisor:] Prof Ang Wei Tech],[#strong[Proposed Dissertation:] Enhancing Human-Robot Interaction for Personalized Robot Behaviour in Assistive Feeding],[#strong[Research Interests:] Human-Robot Interaction, Machine Learning, Foundation Models, Continual Learning],)
+    #v(design-highlights-top-margin);#highlights([#strong[导师:] 洪伟德教授 （Prof Ang Wei Tech）],[#strong[论文题目:] 增强辅助喂食机器人的人机交互与个性化行为],[#strong[研究兴趣:] 人机交互、机器人学习、强化学习、大模型],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -497,18 +497,18 @@ Ph.D. in Mechanical Engineering
 // YES DATE, NO DEGREE
 #two-col-entry(
   left-content: [
-    #link("https://www.ntu.edu.sg/")[#strong[Nanyang Technological University]], Singapore
+    #link("https://www.ntu.edu.sg/")[#strong[南洋理工大学]], 新加坡
 
-BE in Mechanical Engineering with a Second Major in Business
+本科 — 机械工程与商业双专业
   ],
   right-content: [
-    Aug 2017 – May 2021
+    2017.08 – 2021.05
   ],
 )
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[GPA:] 4.92\/5.00, Dean's List every Academic Year],[#strong[Awards:] #link("https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes")[Dr Leung Shiu Kee Gold Medal Award], ASEAN Undergraduate Scholarship],)
+    #v(design-highlights-top-margin);#highlights([#strong[GPA:] 4.92\/5.00, 连续四年入选院长名单 \(Dean's List\)],[#strong[荣誉奖项:] #link("https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes")[Dr Leung Shiu Kee Gold Medal Award], 东盟本科奖学金],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -518,27 +518,27 @@ BE in Mechanical Engineering with a Second Major in Business
 
 
 
-== Research Experience
+== 项目经历
 
 
 #two-col-entry(
   left-content: [
-    #strong[Robot-Assisted Feeding] 
+    #strong[机械辅助喂食] 
   ],
   right-content: [
-    2022 -- present
+    2022 -- 至今
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led the development of an end-to-end robot-assisted feeding system, including bite sequencing, adaptive food acquisition and safe bite transfer.],[Designed a personalized feeding pipeline that adapts to user preferences using verbal corrections, leveraging foundation models to interpret and respond to user feedback.],[Developed a goal-conditioned scooping policy using reinforcement learning to acquire targeted bite sizes across diverse food properties.],[Preparing the system for real-world deployment and user trials with elderly users to better understand user preferences and refine robot behavior for safe, effective assistive feeding.],)
+    #v(design-highlights-top-margin);#highlights([主导开发了一个端到端的机器人辅助喂食系统，包括咬合序列、适应性食物获取和安全咬合转移。],[设计了一个个性化的喂食管道，通过语言纠正来适应用户偏好，利用基础模型来解释和响应用户反馈。],[开发了一个目标条件的舀取策略，使用强化学习来获取不同食物属性下的目标咬合大小。],[为系统的实际部署和与老年用户的用户试验做准备，以更好地理解用户偏好并优化机器人行为，以实现安全、有效的辅助喂食。],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Grasping in Clutter] 
+    #strong[杂乱环境下的抓取] 
   ],
   right-content: [
     2020 -- 2023
@@ -546,62 +546,62 @@ BE in Mechanical Engineering with a Second Major in Business
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed a point-and-click interface for supervised pick-and-place in cluttered environments, integrating object segmentation and grasp cycling for improved grasp selection.],[Developed a POMDP-based shared autonomy framework that queries users under intent uncertainty, improving goal disambiguation, enabling more effective human-robot collaboration.],)
+    #v(design-highlights-top-margin);#highlights([开发了一个点选式界面，用于在杂乱环境中进行监督的抓取和放置，集成了物体分割和抓取循环，以改善抓取选择。],[开发了一个基于POMDP的共享自主框架，在意图不确定性下查询用户，改善目标消歧，增强人机协作的有效性。],)
   ],
 )
 
 
 
-== Work Experience
+== 工作经历
 
 
 #two-col-entry(
   left-content: [
-    #strong[Research Assistant], Nanyang Technological University -- Singapore
+    #strong[研究助理], 南洋理工大学 -- 新加坡
   ],
   right-content: [
-    Aug 2021 – present
+    2021-08 -- 至今
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led the development of a personalized robot-assisted feeding system, integrating perception, control, and language-based user interaction for adaptive assistance.],[Managed project planning, resource coordination, and ethical and safety compliance for system development and user trials.],[Contributed to funding proposals and helped initiate research collaborations with overseas institutes.],[Scoped and mentored undergraduate final-year projects, providing guidance on research direction, methodology and technical implementation.],)
+    #v(design-highlights-top-margin);#highlights([主导开发了一个个性化的机器人辅助喂食系统，集成了感知、控制和基于语言的用户交互，以实现自适应辅助。],[管理项目规划、资源协调以及系统开发和用户试验的伦理和安全合规性。],[参与资金申请，并帮助启动与海外机构的研究合作。],[负责本科生毕业设计项目的范围界定和指导，提供研究方向、方法论和技术实施方面的建议。],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[SaaS Sales Operations Intern], #link("https://www.bytedance.com/en/")[ByteDance] -- Singapore
+    #strong[SaaS销售运营实习生], #link("https://www.bytedance.com/en/")[字节跳动] -- 新加坡
   ],
   right-content: [
-    May 2020 – July 2020
+    2020.05 – 2020.07
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Designed and optimized dashboards to support operational insights and data-driven decision-making across the Lark APAC team.],[Improved Salesforce data quality and streamlined workflows, enhancing consistency across regional business units.],[Analyzed user behaviour trends \(e.g., daily active users \(DAU\), tenant health scores\) to support go-to-market strategy and assess product-market fit.],)
+    #v(design-highlights-top-margin);#highlights([设计和优化仪表板，以支持飞书\(Lark\)亚太团队的运营洞察和数据驱动决策。],[改善Salesforce数据质量，简化工作流程，提高区域业务单位的一致性。],[分析用户行为趋势（例如，日活跃用户（DAU）、租户健康评分），以支持市场推广策略并评估产品市场契合度。],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Engineering Intern], #link("https://oishii.com/")[Oishii] -- New Jersey, USA
+    #strong[工程实习生], #link("https://oishii.com/")[Oishii] -- 新泽西州，美国
   ],
   right-content: [
-    Jan 2020 – Mar 2020
+    2020.01 – 2020.03
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Oversaw a project to prepare infrastructure for future system expansion, balancing technical requirements and operational constraints.],[Planned and implemented sensor-actuator systems to support automation across farm operations, including wiring, integration, and layout decisions.],[Collaborated with cross-functional contractors to resolve infrastructure limitations and improve farm operations.],)
+    #v(design-highlights-top-margin);#highlights([负责一个基础设施扩展项目的规划与管理，在技术需求与运营限制之间进行平衡。],[规划和实施传感器与执行器系统，以支持农场操作的自动化，包括布线、集成和布局决策。],[与跨职能承包商合作，解决基础设施限制，改善农场操作。],)
   ],
 )
 
 
 
-== Selected Publications
+== 学术成果
 
 
 #two-col-entry(
@@ -610,7 +610,7 @@ BE in Mechanical Engineering with a Second Major in Business
 
   ],
   right-content: [
-    Oct 2025
+    2025.10
   ],
 )
 #one-col-entry(content:[
@@ -625,7 +625,7 @@ BE in Mechanical Engineering with a Second Major in Business
 
   ],
   right-content: [
-    Oct 2025
+    2025.10
   ],
 )
 #one-col-entry(content:[
@@ -640,7 +640,7 @@ BE in Mechanical Engineering with a Second Major in Business
 
   ],
   right-content: [
-    Oct 2025
+    2025.10
   ],
 )
 #one-col-entry(content:[
@@ -655,7 +655,7 @@ BE in Mechanical Engineering with a Second Major in Business
 
   ],
   right-content: [
-    May 2025
+    2025.05
   ],
 )
 #one-col-entry(content:[
@@ -666,11 +666,26 @@ BE in Mechanical Engineering with a Second Major in Business
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
+    #strong[Design of a Breakaway Utensil Attachment for Enhanced Safety in Robot-Assisted Feeding]
+
+  ],
+  right-content: [
+    2025.05
+  ],
+)
+#one-col-entry(content:[
+  #v(design-highlights-top-margin);Hau Wen Chang, #strong[#emph[J-Anne Yow]], Wei Tech Ang
+
+#v(design-highlights-top-margin - design-text-leading)International Conference on Rehabilitation Robotics \(ICORR\)])
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
     #link("https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1345693/full")[#strong[ExTraCT - Explainable Trajectory Corrections for language-based human-robot interaction using Textual feature descriptions]]
 
   ],
   right-content: [
-    Sept 2024
+    2024.09
   ],
 )
 #one-col-entry(content:[
@@ -685,7 +700,7 @@ BE in Mechanical Engineering with a Second Major in Business
 
   ],
   right-content: [
-    Nov 2023
+    2023.11
   ],
 )
 #one-col-entry(content:[
@@ -695,27 +710,27 @@ BE in Mechanical Engineering with a Second Major in Business
 
 
 
-== Service
+== 学术服务
 
 
 #one-col-entry(
-  content: [#strong[Reviewer:] IEEE Robotics and Automation Letters \(RAL\), IEEE International Conference on Robotics and Automation \(ICRA\)]
+  content: [#strong[审稿人:] IEEE Robotics and Automation Letters \(RAL\), IEEE International Conference on Robotics and Automation \(ICRA\)]
 )
 
 
-== Skills
+== 技能
 
 
 #one-col-entry(
-  content: [#strong[Programming:] Python, C\/C++, R, SQL]
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [#strong[Robotics & Tools:] ROS, MuJoCo, Motion Planning, Simulation, Robot Learning, Computer Vision, Linux]
+  content: [#strong[编程语言:] Python, C\/C++, R, SQL]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Languages:] English, Chinese, Malay]
+  content: [#strong[机器人技术与工具:] ROS, MuJoCo, 运动规划, 仿真, 机器人学习, 计算机视觉, Linux]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[语言能力:] 英语, 中文, 马来语]
 )
 
 

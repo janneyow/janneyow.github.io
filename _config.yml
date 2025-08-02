@@ -73,7 +73,7 @@ lang_from_path: true
 # -----------------------------------------------------------------------------
 cv:
   en: "/assets/cv/rendercv_output/J-Anne_Yow_CV.pdf"
-  zh: zh-cn/cv/ # "/zh-cn/J-Anne_Yow_CV_zh_cn.pdf"
+  zh: "/assets/cv/rendercv_output/饶洁恩_CV.pdf"
 
 cv_label:
   en: "cv"

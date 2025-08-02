@@ -1,6 +1,6 @@
 cv:
-  name: J-Anne Yow
-  location: Singapore
+  name: 饶洁恩
+  location: 新加坡
   email: janne.yow@gmail.com
   # phone: tel:+90-541-999-99-99
   website: https://janneyow.github.io/
@@ -9,84 +9,84 @@ cv:
       username: janneyow
 
   sections:
-    Summary:
-      # - Final-year PhD researcher in Robotics at NTU Singapore specializing in human-robot interaction and personalized robot behavior. Experienced in integrating reinforcement learning, control strategies, and foundation models into end-to-end robotic systems to adapt robot actions based on user feedback. Passionate about creating robots that respond intuitively to users, enabling more responsive and effective assistance in real-world settings.
-      - Final-year PhD researcher in Robotics at NTU Singapore focused on building adaptive robotic systems that learn from and respond to user interaction. Experienced in integrating reinforcement learning, control strategies, and foundation models into end-to-end robotic systems. Passionate about designing generalizable, user-informed robots, and eager to further apply foundation models in policy learning to build more adaptive and scalable robotic systems.
+    简介:
+      - 南洋理工大学（NTU）博士生，在洪伟德教授（Prof. Ang Wei Tech）指导下，专注于开发能够从用户交互中学习与响应的自适应机器人系统。擅长将强化学习、控制策略与大模型集成到端到端机器人系统中。热衷于设计通用化、以用户为中心的机器人，并致力于进一步应用大模型于策略学习，打造更加智能与可扩展的机器人系统。
+      # - Final-year PhD researcher in Robotics at NTU Singapore focused on building adaptive robotic systems that learn from and respond to user interaction. Experienced in integrating reinforcement learning, control strategies, and foundation models into end-to-end robotic systems. Passionate about designing generalizable, user-informed robots, and eager to further apply foundation models in policy learning to build more adaptive and scalable robotic systems.
 
-    education:
-      - institution: '[Nanyang Technological University](https://www.ntu.edu.sg/)'
-        area: Mechanical Engineering
-        degree: Ph.D.
-        date: Sept 2021 -- Aug 2025 (Expected)
-        start_date: 2021-09
-        end_date: present
-        location: Singapore
+    教育背景:
+      - institution: '[南洋理工大学](https://www.ntu.edu.sg/)'
+        degree: 博士 
+        area: 机械工程
+        date: 2021.09 -- 2025.08 (预计)
+        # start_date: 2021-09
+        # end_date: present
+        location: 新加坡
         summary: 
         highlights:
-          - '**Supervisor:** Prof Ang Wei Tech'
-          - '**Proposed Dissertation:** Enhancing Human-Robot Interaction for Personalized Robot Behaviour in Assistive Feeding'
-          - '**Research Interests:** Human-Robot Interaction, Machine Learning, Foundation Models, Continual Learning'
-      
-      - institution: '[Nanyang Technological University](https://www.ntu.edu.sg/)'
-        area: Mechanical Engineering with a Second Major in Business
-        degree: BE
-        date:
+          - '**导师:** 洪伟德教授 （Prof Ang Wei Tech）'
+          - '**论文题目:** 增强辅助喂食机器人的人机交互与个性化行为'
+          - '**研究兴趣:** 人机交互、机器人学习、强化学习、大模型'
+
+      - institution: '[南洋理工大学](https://www.ntu.edu.sg/)'
+        degree: 本科 
+        area: 机械工程与商业双专业
         start_date: 2017-08
         end_date: 2021-05
-        location: Singapore
+        location: 新加坡
         summary: 
         highlights:
-          - "**GPA:** 4.92/5.00, Dean's List every Academic Year"
-          - '**Awards:** [Dr Leung Shiu Kee Gold Medal Award](https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes), ASEAN Undergraduate Scholarship'
+          - "**GPA:** 4.92/5.00, 连续四年入选院长名单 (Dean's List)"
+          - '**荣誉奖项:** [Dr Leung Shiu Kee Gold Medal Award](https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes), 东盟本科奖学金'
     
-    research experience:
-      - name: 'Robot-Assisted Feeding'
-        date: 2022 -- present
+    项目经历:
+      - name: '机械辅助喂食'
+        date: 2022 -- 至今
         highlights:
-          - 'Led the development of an end-to-end robot-assisted feeding system, including bite sequencing, adaptive food acquisition and safe bite transfer.'
-          - 'Designed a personalized feeding pipeline that adapts to user preferences using verbal corrections, leveraging foundation models to interpret and respond to user feedback.'
-          - 'Developed a goal-conditioned scooping policy using reinforcement learning to acquire targeted bite sizes across diverse food properties.'
-          - 'Preparing the system for real-world deployment and user trials with elderly users to better understand user preferences and refine robot behavior for safe, effective assistive feeding.'
+          - '主导开发了一个端到端的机器人辅助喂食系统，包括咬合序列、适应性食物获取和安全咬合转移。'
+          - '设计了一个个性化的喂食管道，通过语言纠正来适应用户偏好，利用基础模型来解释和响应用户反馈。'
+          - '开发了一个目标条件的舀取策略，使用强化学习来获取不同食物属性下的目标咬合大小。'
+          - '为系统的实际部署和与老年用户的用户试验做准备，以更好地理解用户偏好并优化机器人行为，以实现安全、有效的辅助喂食。'
 
-      - name: 'Grasping in Clutter'
+      - name: '杂乱环境下的抓取'
         date: 2020 -- 2023
         highlights:
-          - 'Developed a point-and-click interface for supervised pick-and-place in cluttered environments, integrating object segmentation and grasp cycling for improved grasp selection.'
-          - 'Developed a POMDP-based shared autonomy framework that queries users under intent uncertainty, improving goal disambiguation, enabling more effective human-robot collaboration.'
-    
-    work experience:
-      - company: Nanyang Technological University
-        position: Research Assistant
-        location: Singapore
-        start_date: 2021-08
-        end_date: present
-        highlights:
-          - Led the development of a personalized robot-assisted feeding system, integrating perception, control, and language-based user interaction for adaptive assistance.
-          - Managed project planning, resource coordination, and ethical and safety compliance for system development and user trials.
-          - Contributed to funding proposals and helped initiate research collaborations with overseas institutes.
-          - Scoped and mentored undergraduate final-year projects, providing guidance on research direction, methodology and technical implementation.
+          - '开发了一个点选式界面，用于在杂乱环境中进行监督的抓取和放置，集成了物体分割和抓取循环，以改善抓取选择。'
+          - '开发了一个基于POMDP的共享自主框架，在意图不确定性下查询用户，改善目标消歧，增强人机协作的有效性。'
 
-      - company: '[ByteDance](https://www.bytedance.com/en/)'
-        position: SaaS Sales Operations Intern
-        location: Singapore
+    工作经历:
+      - company: 南洋理工大学
+        position: 研究助理
+        location: 新加坡
+        date: 2021-08 -- 至今
+        # start_date: 2021-08
+        # end_date: present
+        highlights:
+          - 主导开发了一个个性化的机器人辅助喂食系统，集成了感知、控制和基于语言的用户交互，以实现自适应辅助。
+          - 管理项目规划、资源协调以及系统开发和用户试验的伦理和安全合规性。
+          - 参与资金申请，并帮助启动与海外机构的研究合作。
+          - 负责本科生毕业设计项目的范围界定和指导，提供研究方向、方法论和技术实施方面的建议。
+
+      - company: '[字节跳动](https://www.bytedance.com/en/)'
+        position: SaaS销售运营实习生
+        location: 新加坡
         start_date: 2020-05
         end_date: 2020-07
         highlights:
-          - Designed and optimized dashboards to support operational insights and data-driven decision-making across the Lark APAC team.
-          - Improved Salesforce data quality and streamlined workflows, enhancing consistency across regional business units.
-          - Analyzed user behaviour trends (e.g., daily active users (DAU), tenant health scores) to support go-to-market strategy and assess product-market fit.
+          - 设计和优化仪表板，以支持飞书(Lark)亚太团队的运营洞察和数据驱动决策。
+          - 改善Salesforce数据质量，简化工作流程，提高区域业务单位的一致性。
+          - 分析用户行为趋势（例如，日活跃用户（DAU）、租户健康评分），以支持市场推广策略并评估产品市场契合度。
 
       - company: '[Oishii](https://oishii.com/)'
-        position: Engineering Intern
-        location: New Jersey, USA
+        position: 工程实习生
+        location: 新泽西州，美国
         start_date: 2020-01
         end_date: 2020-03
         highlights:
-          - Oversaw a project to prepare infrastructure for future system expansion, balancing technical requirements and operational constraints. 
-          - Planned and implemented sensor-actuator systems to support automation across farm operations, including wiring, integration, and layout decisions.
-          - Collaborated with cross-functional contractors to resolve infrastructure limitations and improve farm operations.
+          - 负责一个基础设施扩展项目的规划与管理，在技术需求与运营限制之间进行平衡。
+          - 规划和实施传感器与执行器系统，以支持农场操作的自动化，包括布线、集成和布局决策。
+          - 与跨职能承包商合作，解决基础设施限制，改善农场操作。
 
-    selected publications:
+    学术成果:
       - title: 'SAVR: Scooping Adaptation for Variable food properties via Reinforcement Learning'
         authors:
           - '***J-Anne Yow***'
@@ -124,6 +124,14 @@ cv:
           - Wei Tech Ang
         journal: 'International Conference on Rehabilitation Robotics (ICORR)'
         date: 2025-05
+      
+      - title: 'Design of a Breakaway Utensil Attachment for Enhanced Safety in Robot-Assisted Feeding'
+        authors:
+          - Hau Wen Chang
+          - '***J-Anne Yow***'
+          - Wei Tech Ang
+        journal: 'International Conference on Rehabilitation Robotics (ICORR)'
+        date: 2025-05
 
       - title: '[ExTraCT - Explainable Trajectory Corrections for language-based human-robot interaction using Textual feature descriptions](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1345693/full)'
         authors:
@@ -142,17 +150,17 @@ cv:
         journal: 'IEEE Transactions on Robotics (T-RO)'
         date: 2023-11
 
-    service:
-      - label: 'Reviewer'
+    学术服务:
+      - label: '审稿人'
         details: IEEE Robotics and Automation Letters (RAL), IEEE International Conference on Robotics and Automation (ICRA) 
     
-    skills:
-      - label: Programming
+    技能:
+      - label: 编程语言
         details: Python, C/C++, R, SQL
-      - label: Robotics & Tools
-        details: ROS, MuJoCo, Motion Planning, Simulation, Robot Learning, Computer Vision, Linux
-      - label: Languages
-        details: English, Chinese, Malay
+      - label: 机器人技术与工具
+        details: ROS, MuJoCo, 运动规划, 仿真, 机器人学习, 计算机视觉, Linux
+      - label: 语言能力
+        details: 英语, 中文, 马来语
 
 design:
   theme: engineeringresumes
@@ -172,7 +180,7 @@ design:
     links: rgb(0, 0, 0)
     last_updated_date_and_page_numbering: rgb(128, 128, 128)
   text:
-    font_family: XCharter
+    font_family: Noto Sans
     font_size: 10pt
     leading: 0.6em
     alignment: justified
@@ -181,20 +189,20 @@ design:
     underline: false
     use_external_link_icon: false
   header:
-    name_font_family: XCharter
+    name_font_family: Noto Sans
     name_font_size: 25pt
     name_bold: false
     photo_width: 3.5cm
     vertical_space_between_name_and_connections: 0.7cm
     vertical_space_between_connections_and_first_section: 0.7cm
     horizontal_space_between_connections: 0.5cm
-    connections_font_family: XCharter
+    connections_font_family: Noto Sans
     separator_between_connections: '|'
     use_icons_for_connections: true
     alignment: center
   section_titles:
     type: with-parial-line
-    font_family: XCharter
+    font_family: Noto Sans
     font_size: 1.2em
     bold: true
     small_caps: false
@@ -203,7 +211,7 @@ design:
     vertical_space_below: 0.3cm
     line_type: with-full-line
   entries:
-    date_and_location_width: 3.5cm
+    date_and_location_width: 3.3cm
     left_and_right_margin: 0cm
     horizontal_space_between_columns: 0.1cm
     vertical_space_between_entries: 0.4cm
@@ -225,7 +233,7 @@ design:
       # main_column_first_row_template: '**INSTITUTION**, DEGREE in AREA -- LOCATION'
       main_column_first_row_template: |-
         **INSTITUTION**, LOCATION
-        DEGREE in AREA
+        DEGREE — AREA
       degree_column_template:
       degree_column_width: 1cm
       main_column_second_row_template: |-
@@ -260,8 +268,8 @@ locale:
   language: en
   phone_number_format: national
   page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  last_updated_date_template: Last updated TODAY
-  date_template: MONTH_ABBREVIATION YEAR
+  last_updated_date_template: 最近更新于 TODAY
+  date_template: YEAR.MONTH_ABBREVIATION
   month: month
   months: months
   year: year
@@ -269,18 +277,18 @@ locale:
   present: present
   to: –
   abbreviations_for_months:
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - May
-    - June
-    - July
-    - Aug
-    - Sept
-    - Oct
-    - Nov
-    - Dec
+    - '01'
+    - '02'
+    - '03'
+    - '04'
+    - '05'
+    - '06'
+    - '07'
+    - '08'
+    - '09'
+    - '10'
+    - '11'
+    - '12'
   full_names_of_months:
     - January
     - February
