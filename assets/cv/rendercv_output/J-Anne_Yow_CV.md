@@ -70,7 +70,27 @@ Final-year PhD researcher in Robotics at NTU Singapore focused on building adapt
 - Planned and implemented sensor-actuator systems to support automation across farm operations, including wiring, integration, and layout decisions.
 - Collaborated with cross-functional contractors to resolve infrastructure limitations and improve farm operations.
 
-# Journal Publications
+# Selected Publications
+
+## SAVR: Scooping Adaptation for Variable food properties via Reinforcement Learning 
+- Oct 2025
+- ***J-Anne Yow***, Wei Tech Ang
+- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+
+## FRANC: Feeding Robot for Adaptive Needs and Personalized Care 
+- Oct 2025
+- ***J-Anne Yow***, Luke Toh, Yi Heng San, Wei Tech Ang
+- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+
+## ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework 
+- Oct 2025
+- Sherwin Chan, ***J-Anne Yow***, Yi Heng San, Vasanth Ravichandram, Yifan Wang, Lek Syn Lim, Wei Tech Ang
+- IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+
+## Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw 
+- May 2025
+- Yi Heng San, Vasanth Ravichandram, ***J-Anne Yow***, Sherwin Chan, Wei Tech Ang
+- International Conference on Rehabilitation Robotics (ICORR)
 
 ## [ExTraCT - Explainable Trajectory Corrections for language-based human-robot interaction using Textual feature descriptions](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1345693/full) 
 - Sept 2024
@@ -81,23 +101,6 @@ Final-year PhD researcher in Robotics at NTU Singapore focused on building adapt
 - Nov 2023
 - ***J-Anne Yow***, Neha P Garg, Wei Tech Ang
 - IEEE Transactions on Robotics (T-RO)
-
-# Other Publications
-
-## Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw 
-- May 2025
-- Yi Heng San, Vasanth Ravichandram, ***J-Anne Yow***, Sherwin Chan, Wei Tech Ang
-- International Conference on Rehabilitation Robotics (ICORR)
-
-## Design of a Breakaway Utensil Attachment for Enhanced Safety in Robot-Assisted Feeding 
-- May 2025
-- Hau Wen Chang, ***J-Anne Yow***, Wei Tech Ang
-- International Conference on Rehabilitation Robotics (ICORR)
-
-## Adaptive Scooping in Simulation for Assistive Feeding: Meeting User Preferences in Bite Size (Best Paper Award) 
-- Oct 2024
-- ***J-Anne Yow***, Neha P Garg, Wei Tech Ang
-- Workshop on Interactive Robots and AI for Healthcare, IEEE/RSJ International Conference on Intelligent Robots and Systems
 
 # Service
 

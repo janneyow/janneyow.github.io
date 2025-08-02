@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        饶洁恩's CV
+    </title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
+        integrity="sha512-Pmhg2i/F7+5+7SsdoUqKeH7UAZoVMYb1sxGOoJ0jWXAEHP0XV2H4CITyK267eHWp2jpj7rtqWNkmEOw1tNyYpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.css" integrity="sha384-PDbUeNCuE6bOPudPOgFyIUEy3UJawJVwr3XlGO90FIuf5qNIoTLSgOJo/dC2ZXV/" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.js" integrity="sha384-VkqWq8xtm5YQk1BBXczQ8/Sx+DlCzF8cuS43bZwmtVXzRFtyLTqTCdP7MKmKo+KN" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, {delimiters: [{ left: '$$',  right: '$$',  display: false }]});"></script>
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <article class="markdown-body">
+        <h1>饶洁恩's CV</h1>
+        <ul>
+        <li>Email: <a href="mailto:janne.yow@gmail.com">janne.yow@gmail.com</a></li>
+        <li>Location: 新加坡</li>
+        <li>Website: <a href="https://janneyow.github.io/">janneyow.github.io</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/janneyow">janneyow</a></li>
+        </ul>
+        <h1>简介</h1>
+        <p>南洋理工大学（NTU）博士生，在洪伟德教授（Prof. Ang Wei Tech）指导下，专注于开发能够从用户交互中学习与响应的自适应机器人系统。擅长将强化学习、控制策略与大模型集成到端到端机器人系统中。热衷于设计通用化、以用户为中心的机器人，并致力于进一步应用大模型于策略学习，打造更加智能与可扩展的机器人系统。</p>
+        <h1>教育背景</h1>
+        <h2><a href="https://www.ntu.edu.sg/">南洋理工大学</a>, 博士 in 机械工程</h2>
+        <ul>
+        <li>2021.09 -- 2025.08 (预计)</li>
+        <li>新加坡</li>
+        <li><strong>导师:</strong> 洪伟德教授 （Prof Ang Wei Tech）</li>
+        <li><strong>论文题目:</strong> 增强辅助喂食机器人的人机交互与个性化行为</li>
+        <li><strong>研究兴趣:</strong> 人机交互、机器人学习、强化学习、大模型</li>
+        </ul>
+        <h2><a href="https://www.ntu.edu.sg/">南洋理工大学</a>, 本科 in 机械工程与商业双专业</h2>
+        <ul>
+        <li>2017.08 – 2021.05</li>
+        <li>新加坡</li>
+        <li><strong>GPA:</strong> 4.92/5.00, 连续四年入选院长名单 (Dean's List)</li>
+        <li><strong>荣誉奖项:</strong> <a href="https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes">Dr Leung Shiu Kee Gold Medal Award</a>, 东盟本科奖学金</li>
+        </ul>
+        <h1>项目经历</h1>
+        <h2>机械辅助喂食</h2>
+        <ul>
+        <li>2022 -- 至今</li>
+        <li>主导开发了一个端到端的机器人辅助喂食系统，包括咬合序列、适应性食物获取和安全咬合转移。</li>
+        <li>设计了一个个性化的喂食管道，通过语言纠正来适应用户偏好，利用基础模型来解释和响应用户反馈。</li>
+        <li>开发了一个目标条件的舀取策略，使用强化学习来获取不同食物属性下的目标咬合大小。</li>
+        <li>为系统的实际部署和与老年用户的用户试验做准备，以更好地理解用户偏好并优化机器人行为，以实现安全、有效的辅助喂食。</li>
+        </ul>
+        <h2>杂乱环境下的抓取</h2>
+        <ul>
+        <li>2020 -- 2023</li>
+        <li>开发了一个点选式界面，用于在杂乱环境中进行监督的抓取和放置，集成了物体分割和抓取循环，以改善抓取选择。</li>
+        <li>开发了一个基于POMDP的共享自主框架，在意图不确定性下查询用户，改善目标消歧，增强人机协作的有效性。</li>
+        </ul>
+        <h1>工作经历</h1>
+        <h2>南洋理工大学, 研究助理</h2>
+        <ul>
+        <li>2021-08 -- 至今</li>
+        <li>新加坡</li>
+        <li>主导开发了一个个性化的机器人辅助喂食系统，集成了感知、控制和基于语言的用户交互，以实现自适应辅助。</li>
+        <li>管理项目规划、资源协调以及系统开发和用户试验的伦理和安全合规性。</li>
+        <li>参与资金申请，并帮助启动与海外机构的研究合作。</li>
+        <li>负责本科生毕业设计项目的范围界定和指导，提供研究方向、方法论和技术实施方面的建议。</li>
+        </ul>
+        <h2><a href="https://www.bytedance.com/en/">字节跳动</a>, SaaS销售运营实习生</h2>
+        <ul>
+        <li>2020.05 – 2020.07</li>
+        <li>新加坡</li>
+        <li>设计和优化仪表板，以支持飞书(Lark)亚太团队的运营洞察和数据驱动决策。</li>
+        <li>改善Salesforce数据质量，简化工作流程，提高区域业务单位的一致性。</li>
+        <li>分析用户行为趋势（例如，日活跃用户（DAU）、租户健康评分），以支持市场推广策略并评估产品市场契合度。</li>
+        </ul>
+        <h2><a href="https://oishii.com/">Oishii</a>, 工程实习生</h2>
+        <ul>
+        <li>2020.01 – 2020.03</li>
+        <li>新泽西州，美国</li>
+        <li>负责一个基础设施扩展项目的规划与管理，在技术需求与运营限制之间进行平衡。</li>
+        <li>规划和实施传感器与执行器系统，以支持农场操作的自动化，包括布线、集成和布局决策。</li>
+        <li>与跨职能承包商合作，解决基础设施限制，改善农场操作。</li>
+        </ul>
+        <h1>学术成果</h1>
+        <h2>SAVR: Scooping Adaptation for Variable food properties via Reinforcement Learning</h2>
+        <ul>
+        <li>2025.10</li>
+        <li><strong><em>J-Anne Yow</em></strong>, Wei Tech Ang</li>
+        <li>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</li>
+        </ul>
+        <h2>FRANC: Feeding Robot for Adaptive Needs and Personalized Care</h2>
+        <ul>
+        <li>2025.10</li>
+        <li><strong><em>J-Anne Yow</em></strong>, Luke Toh, Yi Heng San, Wei Tech Ang</li>
+        <li>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</li>
+        </ul>
+        <h2>ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework</h2>
+        <ul>
+        <li>2025.10</li>
+        <li>Sherwin Chan, <strong><em>J-Anne Yow</em></strong>, Yi Heng San, Vasanth Ravichandram, Yifan Wang, Lek Syn Lim, Wei Tech Ang</li>
+        <li>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</li>
+        </ul>
+        <h2>Simulating Safe Bite Transfer in Robot-Assisted Feeding with a Soft Head and Articulated Jaw</h2>
+        <ul>
+        <li>2025.05</li>
+        <li>Yi Heng San, Vasanth Ravichandram, <strong><em>J-Anne Yow</em></strong>, Sherwin Chan, Wei Tech Ang</li>
+        <li>International Conference on Rehabilitation Robotics (ICORR)</li>
+        </ul>
+        <h2>Design of a Breakaway Utensil Attachment for Enhanced Safety in Robot-Assisted Feeding</h2>
+        <ul>
+        <li>2025.05</li>
+        <li>Hau Wen Chang, <strong><em>J-Anne Yow</em></strong>, Wei Tech Ang</li>
+        <li>International Conference on Rehabilitation Robotics (ICORR)</li>
+        </ul>
+        <h2><a href="https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1345693/full">ExTraCT - Explainable Trajectory Corrections for language-based human-robot interaction using Textual feature descriptions</a></h2>
+        <ul>
+        <li>2024.09</li>
+        <li><strong><em>J-Anne Yow</em></strong>, Neha P Garg, Manoj Ramanathan, Wei Tech Ang</li>
+        <li>Frontiers in Robotics and AI</li>
+        </ul>
+        <h2><a href="https://ieeexplore.ieee.org/document/10323205">Shared Autonomy of a Robotic Manipulator for Grasping under Human Intent Uncertainty using POMDPs</a></h2>
+        <ul>
+        <li>2023.11</li>
+        <li><strong><em>J-Anne Yow</em></strong>, Neha P Garg, Wei Tech Ang</li>
+        <li>IEEE Transactions on Robotics (T-RO)</li>
+        </ul>
+        <h1>学术服务</h1>
+        <ul>
+        <li>审稿人: IEEE Robotics and Automation Letters (RAL), IEEE International Conference on Robotics and Automation (ICRA)</li>
+        </ul>
+        <h1>技能</h1>
+        <ul>
+        <li>编程语言: Python, C/C++, R, SQL</li>
+        <li>机器人技术与工具: ROS, MuJoCo, 运动规划, 仿真, 机器人学习, 计算机视觉, Linux</li>
+        <li>语言能力: 英语, 中文, 马来语</li>
+        </ul>
+    </article>
+</body>
+
+</html>
