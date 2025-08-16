@@ -464,7 +464,7 @@
 
 
 #one-col-entry(
-  content: [Final-year PhD candidate in Robotics at NTU Singapore, developing intelligent robotic systems spanning perception, planning and control. Experienced in integrating large language models and reinforcement learning for adaptive manipulation. My goal is to build scalable, human-aware robot intelligence for deployment in real-world environments.]
+  content: [Final-year PhD candidate in Robotics & AI at NTU Singapore, developing adaptive robotic systems that integrate reinforcement learning, multimodal perception, and language-driven control. Experienced in sim-to-real transfer, ROS\/ROS2, and real-world deployment in user trials. Passionate about bridging research and application by enabling embodied AI models to transfer from simulation into practical, deployable robots.]
 )
 
 
@@ -523,6 +523,21 @@ BE in Mechanical Engineering with a Second Major in Business
 
 #two-col-entry(
   left-content: [
+    #strong[Embodied AI Data Factory - Improving Teleoperation for Scalable Data Collection] 
+  ],
+  right-content: [
+    2025 -- present
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Leading efforts to enhance teleoperation for bimanual and dexterous manipulation to reduce cognitive load and preserve natural human motion.],[Building a scalable pipeline with markerless motion capture, multisensory perception, and real-time retargeting to dexterous hands, manipulators, and humanoids in simulation and on real hardware.],[Goal: To close the gap between human and robot motion to enable efficient, high-fidelity datasets for training robust, generalizable, foundation model-based vision-language-action \(VLA\) policies.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
     #strong[Robot-Assisted Feeding] 
   ],
   right-content: [
@@ -531,7 +546,7 @@ BE in Mechanical Engineering with a Second Major in Business
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led the development of an end-to-end robot-assisted feeding system, integrating perception, planning, and control for safe, adaptive bite sequencing, food acquisition and bite transfer.],[Developed a language-driven robot adaptation pipeline, leveraging large language models to map user feedback into  constrained motion parameters to ensure safe and predictable robot behavior.],[Developed a goal-conditioned reinforcement learning policy for adaptive manipulation across variable food properties, enabling the acquisition of targeted bite sizes.],[Deployed the system in elderly user trials, analyzed user feedback to guide design improvements and refine robot behavior for safe and effective assistance.],)
+    #v(design-highlights-top-margin);#highlights([Led the technical delivery of an end-to-end adaptive feeding system, integrating perception, planning, and control into a safe, deployable platform for real-world elderly user trials.],[Developed goal-conditioned reinforcement learning policies in MuJoCo, integrating multimodal feedback \(vision + force-torque sensing\) for adaptive manipulation across variable food properties, achieving successful sim-to-real transfer.],[Built a language-driven adaptation pipeline, leveraging large language models to map user feedback into motion parameters for reliable, safe robot behaviour.],)
   ],
 )
 
@@ -565,7 +580,7 @@ BE in Mechanical Engineering with a Second Major in Business
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led the technical delivery of a multi-year robotics project, overseeing integration of perception, planning and control modules into a safe, deployable robot-assisted feeding system for real-world user trials.],[Managed project planning, resource coordination, and ethical compliance, removing operational bottlenecks such as compute limitations to keep development on schedule.],[Mentored and scoped eight undergraduate projects, defining research objectives and guiding skill development.],[Drafted and contributed to competitive funding proposals to support ongoing research and new initiatives.],)
+    #v(design-highlights-top-margin);#highlights([Managed ROS\/ROS2-based system integration and hardware-software interfacing, collaborating with research staff and students to define technical goals and evaluate prototypes in simulation and on physical robots.],[Managed project planning, resource coordination, and ethical compliance, removing operational bottlenecks such as compute limitations to keep development on schedule.],[Mentored and scoped eight undergraduate projects, defining research objectives, guiding technical execution and skill development.],[Drafted and contributed to competitive funding proposals to support ongoing research and new initiatives.],)
   ],
 )
 
@@ -647,11 +662,19 @@ BE in Mechanical Engineering with a Second Major in Business
 
 
 #one-col-entry(
-  content: [#strong[Technical Skills:] Python, C\/C++, PyTorch, Git, SQL]
+  content: [#strong[Programming:] Python, C\/C++ ]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Robotics Skills:] ROS\/ROS2, MoveIt, MuJoCo, Isaac Lab, Motion Planning, Computer Vision, Reinforcement Learning, Human-Robot Interaction]
+  content: [#strong[Robotics & Simulation:] ROS\/ROS2, MoveIt, MuJoCo, Isaac Lab]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Machine Learning:] Reinforcement Learning, Imitation Learning, PyTorch]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Perception & Control:] Vision, Force-Torque Sensing, Impedance\/Admittance Control]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
