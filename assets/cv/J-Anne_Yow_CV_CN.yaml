@@ -35,9 +35,9 @@ cv:
         location: 新加坡
         summary: 
         highlights:
-          - "**GPA:** 4.92/5.00 （专业前5%）"
-          - '**荣誉奖项:** [Dr Leung Shiu Kee 金牌奖](https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes), 东盟本科奖学金'
-    
+          - "**GPA:** 4.92/5.00, 一等荣耀学位"
+          - '**荣誉奖项:** 院长名单（专业前5%）、[Dr Leung Shiu Kee 金牌奖](https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes) (1/650), 东盟本科全额奖学金'
+
     项目经历:
       - name: '具身智能数据工厂（高效机器人数据采集与学习平台）'
         date: 2025 -- 至今
@@ -60,7 +60,7 @@ cv:
 
     工作与实习经历:
       - company: 南洋理工大学
-        position: 研究助理
+        position: 助理研究员
         location: 新加坡
         date: 2021-08 -- 至今
         # start_date: 2021-08

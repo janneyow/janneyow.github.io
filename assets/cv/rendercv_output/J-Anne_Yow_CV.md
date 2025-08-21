@@ -24,8 +24,8 @@ Final-year PhD candidate in Robotics & AI at NTU Singapore, developing adaptive 
 
 - Aug 2017 – May 2021
 - Singapore
-- **GPA:** 4.92/5.00, Dean's List every Academic Year
-- **Awards:** [Dr Leung Shiu Kee Gold Medal Award](https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes), ASEAN Undergraduate Scholarship
+- **GPA:** 4.92/5.00, First Class Honours
+- **Awards:** Dean's List every Academic Year, [Dr Leung Shiu Kee Gold Medal Award](https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes), ASEAN Undergraduate Scholarship
 
 # Research Experience
 
