@@ -500,7 +500,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[GPA:] 4.92\/5.00 （专业前5\%）],[#strong[荣誉奖项:] #link("https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes")[Dr Leung Shiu Kee 金牌奖], 东盟本科奖学金],)
+    #v(design-highlights-top-margin);#highlights([#strong[GPA:] 4.92\/5.00, 一等荣耀学位],[#strong[荣誉奖项:] 院长名单（专业前5\%）、#link("https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes")[Dr Leung Shiu Kee 金牌奖] \(1\/650\), 东盟本科全额奖学金],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -564,7 +564,7 @@
 
 #two-col-entry(
   left-content: [
-    #strong[研究助理], 南洋理工大学 -- 新加坡
+    #strong[助理研究员], 南洋理工大学 -- 新加坡
   ],
   right-content: [
     2021-08 -- 至今

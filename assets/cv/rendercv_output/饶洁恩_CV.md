@@ -20,8 +20,8 @@
 
 - 2017.08 – 2021.05
 - 新加坡
-- **GPA:** 4.92/5.00 （专业前5%）
-- **荣誉奖项:** [Dr Leung Shiu Kee 金牌奖](https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes), 东盟本科奖学金
+- **GPA:** 4.92/5.00, 一等荣耀学位
+- **荣誉奖项:** 院长名单（专业前5%）、[Dr Leung Shiu Kee 金牌奖](https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes) (1/650), 东盟本科全额奖学金
 
 # 项目经历
 
@@ -46,7 +46,7 @@
 
 # 工作与实习经历
 
-## 南洋理工大学, 研究助理
+## 南洋理工大学, 助理研究员
 
 - 2021-08 -- 至今
 - 新加坡

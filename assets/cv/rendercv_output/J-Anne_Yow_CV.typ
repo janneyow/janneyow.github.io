@@ -508,7 +508,7 @@ BE in Mechanical Engineering with a Second Major in Business
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[GPA:] 4.92\/5.00, Dean's List every Academic Year],[#strong[Awards:] #link("https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes")[Dr Leung Shiu Kee Gold Medal Award], ASEAN Undergraduate Scholarship],)
+    #v(design-highlights-top-margin);#highlights([#strong[GPA:] 4.92\/5.00, First Class Honours],[#strong[Awards:] Dean's List every Academic Year, #link("https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes")[Dr Leung Shiu Kee Gold Medal Award], ASEAN Undergraduate Scholarship],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,

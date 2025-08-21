@@ -38,9 +38,9 @@ cv:
         location: Singapore
         summary: 
         highlights:
-          - "**GPA:** 4.92/5.00, Dean's List every Academic Year"
-          - '**Awards:** [Dr Leung Shiu Kee Gold Medal Award](https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes), ASEAN Undergraduate Scholarship'
-    
+          - "**GPA:** 4.92/5.00, First Class Honours"
+          - "**Awards:** Dean's List every Academic Year, [Dr Leung Shiu Kee Gold Medal Award](https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes), ASEAN Undergraduate Scholarship"
+
     research experience:
       - name: 'Embodied AI Data Factory - Improving Teleoperation for Scalable Data Collection'
         date: 2025 -- present
