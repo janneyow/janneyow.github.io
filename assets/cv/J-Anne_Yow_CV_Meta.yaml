@@ -1,0 +1,285 @@
+cv:
+  name: J-Anne Yow
+  location: Singapore
+  email: janne.yow@gmail.com
+  phone: tel:+65-91806590
+  website: https://janneyow.github.io/
+  social_networks:
+    - network: LinkedIn
+      username: janneyow
+
+  sections:
+    Summary:
+      # - Final-year PhD researcher in Robotics at NTU Singapore specializing in human-robot interaction and personalized robot behavior. Experienced in integrating reinforcement learning, control strategies, and foundation models into end-to-end robotic systems to adapt robot actions based on user feedback. Passionate about creating robots that respond intuitively to users, enabling more responsive and effective assistance in real-world settings.
+      # - Final-year PhD researcher in Robotics at NTU Singapore focused on building adaptive robotic systems that learn from and respond to user interaction. Experienced in integrating reinforcement learning, control strategies, and foundation models into end-to-end robotic systems. Passionate about designing generalizable, user-informed robots, and eager to further apply foundation models in policy learning to build more adaptive and scalable robotic systems.
+      - Final-year PhD candidate in Robotics at NTU Singapore, specializing in developing and deploying intelligent robotic systems from simulation to real-world environments. Experienced in reinforcement learning, large language model integration, and human-robot interaction, with a focus on adaptive manipulation and sim-to-real transfer. Proficient in MuJoCo, ROS, and multisensory integration for safe, robust robot control.
+
+    education:
+      - institution: '[Nanyang Technological University](https://www.ntu.edu.sg/)'
+        area: Mechanical Engineering
+        degree: Ph.D.
+        date: Sept 2021 -- Feb 2026 (Expected)
+        start_date: 2021-09
+        end_date: present
+        location: Singapore
+        summary: 
+        highlights:
+          - '**Supervisor:** Prof Ang Wei Tech'
+          - '**Dissertation:** Towards Personalized Robot Assistance: Integrating User Preferences in Robot-Assisted Feeding'
+          - '**Research Interests:** Human-Robot Interaction, Machine Learning, Foundation Models, Continual Learning'
+      
+      - institution: '[Nanyang Technological University](https://www.ntu.edu.sg/)'
+        area: Mechanical Engineering with a Second Major in Business
+        degree: BE
+        date:
+        start_date: 2017-08
+        end_date: 2021-05
+        location: Singapore
+        summary: 
+        highlights:
+          - "**GPA:** 4.92/5.00, Dean's List every Academic Year"
+          - '**Awards:** [Dr Leung Shiu Kee Gold Medal Award](https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes), ASEAN Undergraduate Scholarship'
+    
+    research experience:
+      - name: 'Robot-Assisted Feeding'
+        date: 2022 -- present
+        highlights:
+          - 'Led the technical delivery of an end-to-end adaptive feeding system, integrating perception, planning, and control into a safe, deployable platform for real-world elderly user trials.'
+          - 'Developed goal-conditioned reinforcement learning policies in MuJoCo, integrating multimodal feedback (vision + force-torque sensing) for adaptive manipulation across variable food properties, achieving successful sim-to-real transfer.'
+          - 'Built a language-driven adaptation pipeline, leveraging large language models to map user feedback into motion parameters for reliable, safe robot behaviour.'
+
+      - name: 'Grasping in Clutter'
+        date: 2020 -- 2023
+        highlights:
+          - 'Developed a point-and-click interface for human-in-the-loop robotic manipulation, integrating object segmentation, grasp ranking, and grasp cycling to streamline user input and improve selection efficiency in cluttered scenes.'
+          - 'Developed a POMDP-based shared autonomy framework that queries users under intent uncertainty, reducing conflicting actions and enabling faster task completion.'
+    
+    work experience:
+      - company: Nanyang Technological University
+        position: Research Assistant
+        location: Singapore
+        start_date: 2021-08
+        end_date: present
+        highlights:
+          - Managed ROS/ROS2-based system integration and hardware-software interfacing, collaborating with research staff and students to define technical goals and evaluate prototypes in simulation and on physical robots.
+          - Managed project planning, resource coordination, and ethical compliance, removing operational bottlenecks such as compute limitations to keep development on schedule.
+          - Mentored and scoped eight undergraduate projects, defining research objectives, guiding technical execution and skill development.
+          - Drafted and contributed to competitive funding proposals to support ongoing research and new initiatives.
+
+      # - company: '[ByteDance](https://www.bytedance.com/en/)'
+      #   position: SaaS Sales Operations Intern
+      #   location: Singapore
+      #   start_date: 2020-05
+      #   end_date: 2020-07
+      #   highlights:
+      #     - Designed and optimized dashboards to support operational insights and data-driven decision-making across the Lark APAC team.
+      #     - Improved Salesforce data quality and streamlined workflows, enhancing consistency across regional business units.
+      #     - Analyzed user behaviour trends (e.g., daily active users (DAU), tenant health scores) to support go-to-market strategy and assess product-market fit.
+
+      # - company: '[Oishii](https://oishii.com/)'
+      #   position: Engineering Intern
+      #   location: New Jersey, USA
+      #   start_date: 2020-01
+      #   end_date: 2020-03
+      #   highlights:
+      #     - Oversaw a project to prepare infrastructure for future system expansion, balancing technical requirements and operational constraints. 
+      #     - Planned and implemented sensor-actuator systems to support automation across farm operations, including wiring, integration, and layout decisions.
+      #     - Collaborated with cross-functional contractors to resolve infrastructure limitations and improve farm operations.
+
+    selected publications:
+      - title: 'SAVR: Scooping Adaptation for Variable food properties via Reinforcement Learning'
+        authors:
+          - '***J-Anne Yow***'
+          - Wei Tech Ang
+        journal: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)'
+        date: 2025-10
+
+      - title: 'FRANC: Feeding Robot for Adaptive Needs and Personalized Care'
+        authors:
+          - '***J-Anne Yow***'
+          - Luke Toh
+          - Yi Heng San
+          - Wei Tech Ang
+        journal: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)'
+        date: 2025-10
+
+      - title: 'ORBiT: Optimizing Robot-Assisted Bite Transfer Leveraging a Real2Sim2Real Framework'
+        authors:
+          - Sherwin Chan
+          - '***J-Anne Yow***'
+          - Yi Heng San
+          - Vasanth Ravichandram
+          - Yifan Wang
+          - Lek Syn Lim
+          - Wei Tech Ang
+        journal: 'IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)'
+        date: 2025-10
+
+      - title: '[Shared Autonomy of a Robotic Manipulator for Grasping under Human Intent Uncertainty using POMDPs](https://ieeexplore.ieee.org/document/10323205)'
+        authors:
+          - '***J-Anne Yow***'
+          - Neha P Garg
+          - Wei Tech Ang
+        journal: 'IEEE Transactions on Robotics (T-RO)'
+        date: 2023-11
+
+    service:
+      - label: 'Reviewer'
+        details: IEEE Robotics and Automation Letters (RAL), IEEE International Conference on Robotics and Automation (ICRA) 
+    
+    skills:
+      - label: Programming
+        details: Python, C/C++ ,
+      - label: Robotics & Simulation
+        details: ROS/ROS2, MoveIt, MuJoCo, Isaac Lab, 
+      - label: Machine Learning
+        details: Reinforcement Learning, Imitation Learning, PyTorch
+      - label: Perception & Control
+        details: Vision, Force-Torque Sensing, Impedance/Admittance Control
+      - label: Languages
+        details: English, Chinese, Malay
+
+design:
+  theme: engineeringresumes
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: XCharter
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+    use_external_link_icon: false
+  header:
+    name_font_family: XCharter
+    name_font_size: 25pt
+    name_bold: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: XCharter
+    separator_between_connections: '|'
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_family: XCharter
+    font_size: 1.2em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.55cm
+    vertical_space_below: 0.3cm
+    line_type: with-full-line
+  entries:
+    date_and_location_width: 3.5cm
+    left_and_right_margin: 0cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.4cm
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0cm
+    vertical_space_between_highlights: 0.19cm
+    horizontal_space_between_bullet_and_highlight: 0.3em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      # main_column_first_row_template: '**INSTITUTION**, DEGREE in AREA -- LOCATION'
+      main_column_first_row_template: |-
+        **INSTITUTION**, LOCATION
+        DEGREE in AREA
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME** -- **LOCATION**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    experience_entry:
+      main_column_first_row_template: '**POSITION**, COMPANY -- LOCATION'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-08-08'
+  render_command:
+  bold_keywords: []

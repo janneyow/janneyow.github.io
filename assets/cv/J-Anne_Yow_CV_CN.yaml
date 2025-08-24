@@ -11,7 +11,9 @@ cv:
   sections:
     个人简介:
       # - 南洋理工大学博士生，专注于开发能够从用户交互中学习与响应的自适应机器人系统。擅长将强化学习、控制策略与大模型集成到端到端机器人系统中。热衷于设计通用化、以用户为中心的机器人，并致力于进一步应用大模型于策略学习，打造更加智能与可扩展的机器人系统。
-      - 南洋理工大学博士生，主要研究方向为具身智能与机器人学习系统。专注于结合强化学习、多模态感知与大语言模型技术，构建可自主学习、适应环境且能与人类高效协同的机器人系统。具备扎实的算法研发与系统实现能力，致力于推动以用户为中心、可泛化、可扩展的新一代机器人智能技术落地于真实场景。
+      - 新加坡南洋理工大学博士在读(2026年2月毕业），专注于构建可与人交互并持续自适应的机器人系统。擅长将强化学习、控制策略与基础模型整合进端到端机器人系统。热衷设计可泛化、以用户为中心且可规模化落地的机器人。目前主导建设具身智能数据工厂，通过高保真、低认知负荷的遥操作接口，持续采集大规模高质量数据，用于训练视觉-语言-动作（VLA）基础模型策略。
+
+      # - 主要研究方向为具身智能与机器人学习系统。专注于结合强化学习、多模态感知与大语言模型技术，构建可自主学习、适应环境且能与人类高效协同的机器人系统。具备扎实的算法研发与系统实现能力，致力于推动以用户为中心、可泛化、可扩展的新一代机器人智能技术落地于真实场景。
       # - Final-year PhD researcher in Robotics at NTU Singapore focused on building adaptive robotic systems that learn from and respond to user interaction. Experienced in integrating reinforcement learning, control strategies, and foundation models into end-to-end robotic systems. Passionate about designing generalizable, user-informed robots, and eager to further apply foundation models in policy learning to build more adaptive and scalable robotic systems.
 
     教育背景:
@@ -25,7 +27,7 @@ cv:
         summary: 
         highlights:
           - '**导师:** 洪伟德教授 （Prof Ang Wei Tech）'
-          - '**论文题目:** 人机协同下的个性化助餐：基于用户偏好的机器人赋能 （Towards Personalized Robot Assistance: Integrating User Preferences in Robot-Assisted Feeding）'
+          - '**论文题目:** Towards Personalized Robot Assistance: Integrating User Preferences in Robot-Assisted Feeding (人机协同下的个性化助餐：基于用户偏好的机器人赋能)'
           # - '**论文题目:** 人机协同下的个性化助餐：基于用户偏好的机器人赋能'
           - '**研究兴趣:** : 机器人学习（强化学习、模仿学习）、人机交互、大模型'
 
@@ -43,9 +45,9 @@ cv:
       - name: '具身智能数据工厂（高效机器人数据采集与学习平台）'
         date: 2025 -- 至今
         highlights:
-          - 主导提升双臂及灵巧手遥操作技术，通过优化人机交互接口与控制框架，显著降低操作者认知负荷，同时确保人类动作的高保真度记录。
-          - 构建了可扩展的多机器人数据采集管道，集成无标记动作捕捉、多模态感知与实时动作重定向技术，覆盖仿真环境与物理实体中的灵巧手、机械臂及人形机器人平台。
-          - 核心目标：显著缩小人机动作差距，生成高效、保真的大规模数据集，用于训练泛化能力强、基于基础模型的视觉-语言-动作（VLA）策略。
+          - 主导开发新一代全身、双臂及灵巧手遥控作框架，通过优化人机接口，显著降低操作员的认知负荷，实现机器人与人类指令在时空维度上的高保真同步。
+          - 面向人形机器人，构建可扩展的端到端数据采集标准流程：集成无标记动作捕捉、多模态传感器融合与实时运动重定向，打通实机与仿真的数据链路。
+          - 优化实时重定向算法，缩小人类示教与机器人执行之间的域差异，实现高吞吐、富标注的数据生产，为视觉-语言-动作（VLA）策略的大规模训练提供高质量数据支撑。
           # - '主导构建了可扩展的机器人数据采集管道，集成动作捕捉、多模态感知与实时动作重定向技术，覆盖灵巧手、机械臂及人形机器人平台。'
           # - '改进双臂与灵巧手遥操作系统，通过降低操作者认知负担并保留人类动作高保真度，显著缩小人机动作差距，为机器人学习提供高效数据基础。'
       
@@ -98,7 +100,7 @@ cv:
           - 主导农场自动化的传感器-执行器系统实施，工作涵盖方案设计、部署、电气布线、系统集成与布局规划。
           - 协同外部承包商与内部运营团队，识别并解决基础设施瓶颈，优化产线运作效率。
 
-    代表性论文:
+    精选出版物:
       - title: 'SAVR: Scooping Adaptation for Variable food properties via Reinforcement Learning'
         authors:
           - '***J-Anne Yow***'
@@ -166,9 +168,9 @@ cv:
     #   - label: '审稿人'
     #     details: IEEE Robotics and Automation Letters (RAL), IEEE International Conference on Robotics and Automation (ICRA) 
     荣誉与奖项:
-      - '四年院长名单（专业前5%）'
-      - '[Dr Leung Shiu Kee 金牌奖](https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes) (优秀毕业设计奖 1/650)'
-      - '东盟本科全额奖学金'
+      - bullet: '四年院长名单（专业前5%）'
+      - bullet: '[Dr Leung Shiu Kee 金牌奖](https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes) (优秀毕业设计奖 1/650)'
+      - bullet: '东盟本科全额奖学金'
 
     技能:
       - label: 编程语言
@@ -232,7 +234,7 @@ design:
     vertical_space_below: 0.3cm
     line_type: with-full-line
   entries:
-    date_and_location_width: 3.3cm
+    date_and_location_width: 3.0cm
     left_and_right_margin: 0cm
     horizontal_space_between_columns: 0.1cm
     vertical_space_between_entries: 0.4cm
@@ -324,6 +326,6 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-04-14'
+  date: '2025-08-24'
   render_command:
   bold_keywords: []

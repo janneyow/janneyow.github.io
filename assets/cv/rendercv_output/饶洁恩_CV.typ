@@ -3,7 +3,7 @@
 
 #let name = "饶洁恩"
 #let locale-catalog-page-numbering-style = context { "饶洁恩 - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "最近更新于 2025.04"
+#let locale-catalog-last-updated-date-style = "最近更新于 2025.08"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.2em
@@ -46,7 +46,7 @@
 #let design-highlights-vertical-space-between-highlights = 0.19cm
 #let design-highlights-horizontal-space-between-bullet-and-highlights = 0.3em
 #let design-entries-vertical-space-between-entries = 0.4cm
-#let design-entries-date-and-location-width = 3.3cm
+#let design-entries-date-and-location-width = 3.0cm
 #let design-entries-allow-page-break-in-entries = true
 #let design-entries-horizontal-space-between-columns = 0.1cm
 #let design-entries-left-and-right-margin = 0cm
@@ -460,6 +460,14 @@
 
 
 
+== 个人简介
+
+
+#one-col-entry(
+  content: [新加坡南洋理工大学博士在读\(2026年2月毕业），专注于构建可与人交互并持续自适应的机器人系统。擅长将强化学习、控制策略与基础模型整合进端到端机器人系统。热衷设计可泛化、以用户为中心且可规模化落地的机器人。目前主导建设具身智能数据工厂，通过高保真、低认知负荷的遥操作接口，持续采集大规模高质量数据，用于训练视觉-语言-动作（VLA）基础模型策略。]
+)
+
+
 == 教育背景
 
 
@@ -477,7 +485,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[导师:] 洪伟德教授 （Prof Ang Wei Tech）],[#strong[论文题目:] 人机协同下的个性化助餐：基于用户偏好的机器人赋能],[#strong[研究兴趣:] : 机器人学习（强化学习、模仿学习）、人机交互、大模型],)
+    #v(design-highlights-top-margin);#highlights([#strong[导师:] 洪伟德教授 （Prof Ang Wei Tech）],[#strong[论文题目:] Towards Personalized Robot Assistance: Integrating User Preferences in Robot-Assisted Feeding \(人机协同下的个性化助餐：基于用户偏好的机器人赋能\)],[#strong[研究兴趣:] : 机器人学习（强化学习、模仿学习）、人机交互、大模型],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -500,7 +508,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[GPA:] 4.92\/5.00, 一等荣耀学位],[#strong[荣誉奖项:] 院长名单（专业前5\%）、#link("https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes")[Dr Leung Shiu Kee 金牌奖] \(1\/650\), 东盟本科全额奖学金],)
+    #v(design-highlights-top-margin);#highlights([#strong[GPA:] 4.92\/5.00, 一等荣誉学位],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -523,7 +531,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([主导构建了可扩展的机器人数据采集管道，集成动作捕捉、多模态感知与实时动作重定向技术，覆盖灵巧手、机械臂及人形机器人平台。],[改进双臂与灵巧手遥操作系统，通过降低操作者认知负担并保留人类动作高保真度，显著缩小人机动作差距，为机器人学习提供高效数据基础。],)
+    #v(design-highlights-top-margin);#highlights([主导开发新一代全身、双臂及灵巧手遥控作框架，通过优化人机接口，显著降低操作员的认知负荷，实现机器人与人类指令在时空维度上的高保真同步。],[面向人形机器人，构建可扩展的端到端数据采集标准流程：集成无标记动作捕捉、多模态传感器融合与实时运动重定向，打通实机与仿真的数据链路。],[优化实时重定向算法，缩小人类示教与机器人执行之间的域差异，实现高吞吐、富标注的数据生产，为视觉-语言-动作（VLA）策略的大规模训练提供高质量数据支撑。],)
   ],
 )
 
@@ -538,7 +546,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([主导开发并交付端到端的自适应喂食系统，将感知、规划与控制集成到安全、可部署的平台中，并成功应用于老年用户的真实试验。],[在MuJoCo中开发融合视觉与力矩反馈的强化学习策略，实现跨食物属性的自适应操作，完成 sim-to-real 迁移。],[构建语言驱动管道，利用大语言模型（LLM）将用户反馈映射为安全、可靠的机器人运动参数。],)
+    #v(design-highlights-top-margin);#highlights([主导端到端自适应喂食系统的技术开发，将多模态感知、运动规划与柔顺控制集成于安全、可部署的平台中，并成功应用于老年用户的试验。],[在MuJoCo中开发融合视觉与力矩反馈的强化学习策略，实现跨食物属性的自适应操作，完成 sim-to-real 迁移。],[搭建了语言驱动的自适应管道，利用大语言模型（LLM）解析用户自然语言反馈，并将其映射为安全、可靠的机器人运动参数，以实现个性化行为调整。],)
   ],
 )
 
@@ -553,7 +561,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([开发了点选式人机交互界面，将物体分割、抓取评分与抓取循环集成在一起，在杂乱场景中简化用户输入并提升选择效率。],[提出基于 POMDP 的共享自主框架，可在意图不确定时主动向用户提问，从而减少冲突操作并加快任务完成。],)
+    #v(design-highlights-top-margin);#highlights([开发了点选式人机交互界面，将物体分割、抓取评分与抓取循环集成在一起，在杂乱场景中简化用户输入并提升选择效率。],[提出基于 POMDP 的人机协同控制框架，可在意图不确定时主动向用户提问，从而减少冲突操作并加快任务完成。],)
   ],
 )
 
@@ -572,7 +580,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([主导基于ROS\/ROS2的系统集成与软硬件接口开发，与研究团队成员及学生协作制定技术目标，并在仿真环境与物理机器人系统上进行原型验证。],[负责项目规划、资源协调与伦理合规管理，消除算力瓶颈等运营障碍，确保项目按计划推进。],[指导并确定了8个本科生毕业设计项目的方向，明确研究目标，提供技术实现与方法技能发展的引导。],[撰写并参与具有竞争力的基金申请，为在研课题与新合作计划争取资金支持。],)
+    #v(design-highlights-top-margin);#highlights([主导基于ROS\/ROS2的系统集成与软硬件接口开发，与研究团队成员及学生协作制定技术目标，并在仿真环境与物理机器人系统上进行原型验证。],[负责项目规划、资源协调与伦理合规管理，消除算力瓶颈等运营障碍，确保项目按计划推进。],[指导了8个本科生毕业设计项目，设定研究目标，提供技术实现与方法技能发展的引导。],[撰写并参与具有竞争力的基金申请，为在研课题与新合作计划争取资金支持。],)
   ],
 )
 
@@ -587,7 +595,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([设计并优化飞书（Lark）亚太区运营仪表板，实现关键指标可视化，支持区域团队数据驱动决策。],[改善Salesforce数据架构，优化业务流程，提升区域业务数据一致性与运营效率。],[分析用户行为数据（DAU／租户健康评分），提炼洞察以协助制定产品推广策略并评估市场适应性],)
+    #v(design-highlights-top-margin);#highlights([设计并优化飞书（Lark）亚太区运营仪表板，实现关键指标可视化，支持区域团队数据驱动决策。],[改善Salesforce数据架构，优化业务流程，提升区域业务数据一致性与运营效率。],[分析用户行为数据（DAU／租户健康评分），以协助制定产品推广策略并评估市场适应性],)
   ],
 )
 
@@ -608,7 +616,7 @@
 
 
 
-== 代表性论文
+== 精选出版物
 
 
 #two-col-entry(
@@ -672,6 +680,22 @@
 
 
 
+== 荣誉与奖项
+
+
+#one-col-entry(
+  content: [- 四年院长名单（专业前5\%）],
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [- #link("https://www.ntu.edu.sg/mae/admissions/current-students/undergraduate/medals-and-prizes")[Dr Leung Shiu Kee 金牌奖] \(优秀毕业设计奖 1\/650\)],
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [- 东盟本科全额奖学金],
+)
+
+
 == 技能
 
 
@@ -693,22 +717,6 @@
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
   content: [#strong[语言能力:] 英语, 中文, 马来语]
-)
-
-
-== 自我评价
-
-
-#one-col-entry(
-  content: [深耕于智能人机交互系统研发，擅长运用大语言模型与强化学习技术，为机器人构建安全、自然且高效的交互行为。]
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [主导过交互式机器人系统的端到端全流程开发，并成功完成从算法仿真、系统部署到真实用户验证的完整闭环。]
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [具备卓越的技术整合与快速原型能力，致力于将前沿创新应用于高价值场景，驱动智能机器人技术的产业化落地。]
 )
 
 
