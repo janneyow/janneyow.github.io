@@ -6,10 +6,13 @@
   year={2025},
   volume={},
   number={},
+  abstract={Robot-assisted feeding systems have the potential to significantly enhance the independence and quality of life of individuals with mobility impairments. While prior work has focused on personalizing bite sequences based on user feedback provided only at the start of the feeding process, this approach assumes that users can fully articulate their preferences upfront. In reality, it is cognitively challenging for users to anticipate every detail, and their preferences may evolve during feeding. Thus, there is a need for an adaptive system that supports iterative corrections across all stages of the feeding process while maintaining context and feeding history to interpret inputs relative to earlier instructions. In this paper, we present FRANC, a novel framework for personalized RAF that leverages large language models (LLMs) with a decomposed prompting strategy to dynamically adjust bite sequence, acquisition and transfer parameters during feeding. Our approach allows iterative corrections without sacrificing consistency and accuracy. In our user studies, FRANC improved bite sequencing accuracy from 65\% to 93\% and enhanced user satisfaction, with participants reliably perceiving when their preferences were being integrated despite occasional execution failures. We also provide a detailed failure analysis and offer insights for developing more adaptive and effective robot-assisted feeding systems.
+  },
   journal={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
   selected={true},
   abbr={IROS},
   video={https://youtu.be/QmywcriVqxU},
+  pdf={iros25_franc.pdf}
 }
 
 @article{yow2025savr,
@@ -18,10 +21,14 @@
   year={2025},
   volume={},
   number={},
+  abstract={
+  Personalizing bite sizes is crucial for robot-assisted feeding, as users have diverse dietary needs and preferences. However, precisely controlling the amount of food scooped remains a challenge due to variations in food properties, such as texture, granularity and cohesion. This work introduces SAVR (Scooping Adaptation for Variable food properties via Reinforcement learning), a learning-based framework that enables robots to scoop a targeted amount of food while adapting to different food characteristics. SAVR integrates Dynamic Motion Primitives (DMPs), with Reinforcement Learning (RL), where DMPs provide a structured motion representation, and RL refines execution by modifying the force term within the DMP formulation. This formulation enables efficient learning by allowing the RL agent to fine-tune the scooping trajectory rather than learning entire trajectories from scratch. Through ablation studies, we show that segmented spoon and food masks, combined with force-torque data, are essential for accurate scooping, significantly improving sim-to-real transfer. We validate SAVR on a real robotic system, demonstrating substantial improvements in accuracy and adaptability over baselines, without any additional fine-tuning.
+  },
   journal={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
   selected={true},
   abbr={IROS},
   video={https://youtu.be/jBPzJJI1ss0},
+  pdf={iros25_savr.pdf}
 }
 
 @article{yow2025orbit,
@@ -30,10 +37,13 @@
   year={2025},
   volume={},
   number={},
+  abstract={Robot-assisted feeding has the potential to enhance the independence of individuals requiring assistance, yet the bite transfer process remains particularly challenging, especially for those with complex conditions. In this paper, we present ORBiT, a novel Real2Sim2Real framework designed to optimize bite transfer in robot-assisted feeding. By integrating motion capture-driven, high-fidelity soft-body simulation with systematic parameter tuning, ORBiT effectively replicates realistic head, neck and jaw dynamics during feeding interactions to provide a safe simulation-driven approach to optimize bite transfer strategies. In our approach, motion capture data drives a personalized dynamic head model that, together with a comprehensive parameter search over variables such as entry angle, exit angle, exit depth, height offset, and distance to mouth, identifies the bite transfer parameters that minimize contact forces on the user. The optimal parameters are then transferred to a real-world robotic system and validated through a pilot user study involving five subjects. Results from real user evaluations mirror the trends in simulation, indicating that bite transfer parameters, especially those related to entry and exit angles, substantially affect user comfort and overall satisfaction. Our findings validate that simulation-derived optimizations can effectively guide improvements in bite transfer strategies, laying the groundwork for a safe, personalized approach to robot-assisted feeding. 
+  },
   journal={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
   selected={true},
   abbr={IROS},
   video={https://youtu.be/a2pklEIAkOA},
+  pdf={iros25_orbit.pdf}
 }
 
 @article{san2025simulatingsafebitetransfer,
@@ -61,6 +71,8 @@
     This simulation-based approach offers a safer and more controlled alternative to real-world experimentation. 
   },
   video={https://youtu.be/hU0XDBeyYu8},
+  pdf={icorr25_simulating_safe_bite_transfer.pdf},
+  poster={icorr25_simulating_safe_bite_transfer_poster.pdf},
 },
 
 
@@ -72,6 +84,10 @@
   number={},
   journal={IEEE International Conference on Rehabilitation Robotics}, 
   abbr={ICORR},
+  selected={false},
+  pdf={icorr25_utensil_attachment.pdf},
+  poster={icorr25_utensil_attachment_poster.pdf},
+  abstract={Robot-assisted feeding systems enhance the independence of individuals with motor impairments and alleviate caregiver burden. While existing systems predominantly rely on software-based safety features to mitigate risks during unforeseen collisions, this study explores the use of a mechanical fail-safe to improve safety. We designed a breakaway utensil attachment that decouples forces exerted by the robot on the user when excessive forces occur. Finite element analysis (FEA) simulations were performed to predict failure points under various loading conditions, followed by experimental validation using 3D-printed attachments with variations in slot depth and wall loops. To facilitate testing, a drop test rig was developed and validated. Our results demonstrated a consistent failure point at the slot of the attachment, with a slot depth of 1 mm and three wall loops achieving failure at the target force of 65 N. Additionally, the parameters can be tailored to customize the breakaway force based on user-specific factors, such as comfort and pain tolerance.}
 }
 
 @article{yow2024extract,
@@ -85,6 +101,8 @@
   selected={true},
   abbr={FROBT},
   html={https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2024.1345693/full},
+  pdf={frontiers_extract.pdf},
+  abstract={In human-robot interaction (HRI), understanding human intent is crucial for robots to perform tasks that align with user preferences. Traditional methods that aim to modify robot trajectories based on language corrections often require extensive training to generalize across diverse objects, initial trajectories, and scenarios. This work presents ExTraCT, a modular framework designed to modify robot trajectories (and behaviour) using natural language input. Unlike traditional end-to-end learning approaches, ExTraCT separates language understanding from trajectory modification, allowing robots to adapt language corrections to new tasks -- including those with complex motions like scooping -- as well as various initial trajectories and object configurations without additional end-to-end training. ExTraCT leverages Large Language Models (LLMs) to semantically match language corrections to predefined trajectory modification functions, allowing the robot to make necessary adjustments to its path. This modular approach overcomes the limitations of pre-trained datasets and offers versatility across various applications. Through comprehensive user studies conducted in simulation and with a physical robot arm, we demonstrate that ExTraCT's trajectory corrections are more accurate and preferred in 80% of cases compared to the baseline. Additionally, we demonstrate the adaptability and effectiveness of our framework in a complex scenario like assistive feeding.}
 }
 
 @article{yow2023shared,
@@ -97,8 +115,10 @@
   abbr={T-RO},
   abstract={In shared autonomy (SA), accurate user intent prediction is crucial for good robot assistance and avoiding user-robot conflicts. Prior works have relied on passive observation of joystick inputs to predict user intent, which works when the goals are clearly separated or when a common policy exists for multiple goals. However, they may not work well when grasping objects to perform daily activities, as there are multiple ways to grasp the same object. We demonstrate the need for active information-gathering in such cases and show how this can be done in a principled manner by formulating SA as a discrete action Partially Observable Markov Decision Process (POMDP), reasoning over high-level actions. One of our insights is that apart from having explicit information-gathering actions and goal-oriented actions, it is important to have actions that move towards a distribution of goals and provide no assistance in the POMDP action space. Compared to a method with no active information-gathering, our method performs tasks faster, requires less user input, and decreases opposing actions, especially for more complex objects, getting higher ratings and preference in our user study.
   },
+  pdf={tro_shared_autonomy.pdf},
   html={https://ieeexplore.ieee.org/abstract/document/10323205},
   video={https://youtu.be/2zTSkv_XmCM},
+  poster={tro_shared_autonomy_poster.pdf}
 }
 
 @inproceedings{shrivastava2023using,
