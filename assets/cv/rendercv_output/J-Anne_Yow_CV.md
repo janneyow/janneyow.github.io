@@ -8,13 +8,33 @@
 
 # Summary
 
-Final-year PhD candidate in Robotics & AI at NTU Singapore, developing adaptive robotic systems that integrate reinforcement learning, multimodal perception, and language-driven control. Experienced in sim-to-real transfer, ROS/ROS2, and real-world deployment in user trials. Passionate about bridging research and application by enabling embodied AI models to transfer from simulation into practical, deployable robots.
+CTO at Phridom AI, leading embodied AI and robotics development across robot data infrastructure, VLA training and evaluation, and system architecture. PhD-trained in robotics and AI at Nanyang Technological University, with experience spanning robot learning, multimodal perception, and real-world robotic systems.
+
+# Work Experience
+
+## Phridom AI, Chief Technology Officer
+
+- Dec 2025 – present
+- Shenzhen, China
+- Lead Phridom AI’s data strategy for embodied AI, spanning multimodal data acquisition, alignment, validation, dataset analysis, and using model performance and data gaps to guide subsequent data collection.
+- Drive the company’s VLA model stack, including training and evaluation pipelines, observation/action representation design, model benchmarking, and adaptation of emerging embodied AI models to real robot systems.
+- Define the technical product direction for Phridom AI’s robotics platform, translating data collection, training, evaluation, and deployment workflows into scalable platform capabilities.
+- Define the robotics research and engineering roadmap with the co-CTO and lead a team of 10+ engineers, owning key architectural decisions, technical prioritization, hiring, and team development.
+
+## Nanyang Technological University, Research Assistant
+
+- Aug 2021 – Nov 2025
+- Singapore
+- Managed ROS/ROS2-based system integration and hardware-software interfacing, collaborating with research staff and students to define technical goals and evaluate prototypes in simulation and on physical robots.
+- Managed project planning, resource coordination, and ethical compliance, removing operational bottlenecks such as compute limitations to keep development on schedule.
+- Mentored and scoped eight undergraduate projects, defining research objectives, guiding technical execution and skill development.
+- Drafted and contributed to competitive funding proposals to support ongoing research and new initiatives.
 
 # Education
 
 ## [Nanyang Technological University](https://www.ntu.edu.sg/), Ph.D. in Mechanical Engineering
 
-- Sept 2021 -- Feb 2026 (Expected)
+- Sept 2021 -- Mar 2026
 - Singapore
 - **Supervisor:** Prof Ang Wei Tech
 - **Dissertation:** Towards Personalized Robot Assistance: Integrating User Preferences in Robot-Assisted Feeding
@@ -29,16 +49,9 @@ Final-year PhD candidate in Robotics & AI at NTU Singapore, developing adaptive 
 
 # Research Experience
 
-## Embodied AI Data Factory - Improving Teleoperation for Scalable Data Collection
-
-- 2025 -- present
-- Leading efforts to enhance teleoperation for bimanual and dexterous manipulation to reduce cognitive load and preserve natural human motion.
-- Building a scalable pipeline with markerless motion capture, multisensory perception, and real-time retargeting to dexterous hands, manipulators, and humanoids in simulation and on real hardware.
-- Goal: To close the gap between human and robot motion to enable efficient, high-fidelity datasets for training robust, generalizable, foundation model-based vision-language-action (VLA) policies.
-
 ## Robot-Assisted Feeding
 
-- 2022 -- present
+- 2022 -- 2025
 - Led the technical delivery of an end-to-end adaptive feeding system, integrating perception, planning, and control into a safe, deployable platform for real-world elderly user trials.
 - Developed goal-conditioned reinforcement learning policies in MuJoCo, integrating multimodal feedback (vision + force-torque sensing) for adaptive manipulation across variable food properties, achieving successful sim-to-real transfer.
 - Built a language-driven adaptation pipeline, leveraging large language models to map user feedback into motion parameters for reliable, safe robot behaviour.
@@ -48,17 +61,6 @@ Final-year PhD candidate in Robotics & AI at NTU Singapore, developing adaptive 
 - 2020 -- 2023
 - Developed a point-and-click interface for human-in-the-loop robotic manipulation, integrating object segmentation, grasp ranking, and grasp cycling to streamline user input and improve selection efficiency in cluttered scenes.
 - Developed a POMDP-based shared autonomy framework that queries users under intent uncertainty, reducing conflicting actions and enabling faster task completion.
-
-# Work Experience
-
-## Nanyang Technological University, Research Assistant
-
-- Aug 2021 – present
-- Singapore
-- Managed ROS/ROS2-based system integration and hardware-software interfacing, collaborating with research staff and students to define technical goals and evaluate prototypes in simulation and on physical robots.
-- Managed project planning, resource coordination, and ethical compliance, removing operational bottlenecks such as compute limitations to keep development on schedule.
-- Mentored and scoped eight undergraduate projects, defining research objectives, guiding technical execution and skill development.
-- Drafted and contributed to competitive funding proposals to support ongoing research and new initiatives.
 
 # Selected Publications
 

@@ -3,7 +3,7 @@
 
 #let name = "饶洁恩"
 #let locale-catalog-page-numbering-style = context { "饶洁恩 - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "最近更新于 2025.08"
+#let locale-catalog-last-updated-date-style = "最近更新于 2026.09"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
 #let design-section-titles-font-size = 1.2em
@@ -464,8 +464,42 @@
 
 
 #one-col-entry(
-  content: [新加坡南洋理工大学博士在读\(2026年2月毕业），专注于构建可与人交互并持续自适应的机器人系统。擅长将强化学习、控制策略与基础模型整合进端到端机器人系统。热衷设计可泛化、以用户为中心且可规模化落地的机器人。目前主导建设具身智能数据工厂，通过高保真、低认知负荷的遥操作接口，持续采集大规模高质量数据，用于训练视觉-语言-动作（VLA）基础模型策略。]
+  content: [随动智能首席技术官（CTO），负责公司具身智能与机器人技术方向，涵盖机器人数据基础设施、VLA 模型训练与评测，以及机器人系统架构。拥有南洋理工大学机器人与人工智能方向博士研究背景，具备机器人学习、多模态感知及真实机器人系统研发经验。]
 )
+
+
+== 工作与实习经历
+
+
+#two-col-entry(
+  left-content: [
+    #strong[首席技术官\(CTO\)], 深圳市随动智能技术有限公司 -- 深圳，中国
+  ],
+  right-content: [
+    2025-12 -- 至今
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([主导公司具身智能数据战略，覆盖多模态机器人数据采集、时序对齐、数据验证与数据集分析，并结合模型表现与数据缺口持续指导后续数据采集方向。],[负责公司 VLA 模型技术体系建设，包括训练与评测管线、观测与动作表征设计、模型基准评测，以及新型具身智能模型在真实机器人系统上的适配与验证。],[定义机器人平台的技术产品方向，将数据采集、训练、评测与部署流程沉淀为可规模化的平台能力，并推动相关能力产品化落地。],[与联合 CTO 共同制定机器人研究与工程路线图，带领 10+ 人工程团队，负责核心架构决策、技术优先级、人才招聘及团队建设。],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[助理研究员], 南洋理工大学 -- 新加坡
+  ],
+  right-content: [
+    2021-08 -- 2025-11
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([主导基于ROS\/ROS2的系统集成与软硬件接口开发，与研究团队成员及学生协作制定技术目标，并在仿真环境与物理机器人系统上进行原型验证。],[负责项目规划、资源协调与伦理合规管理，消除算力瓶颈等运营障碍，确保项目按计划推进。],[指导了8个本科生毕业设计项目，设定研究目标，提供技术实现与方法技能发展的引导。],[撰写并参与具有竞争力的基金申请，为在研课题与新合作计划争取资金支持。],)
+  ],
+)
+
 
 
 == 教育背景
@@ -479,13 +513,13 @@
 博士 — 机械工程
   ],
   right-content: [
-    2021.09 -- 2026.02 \(预计\)
+    2021.09 -- 2026.03
   ],
 )
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([#strong[导师:] 洪伟德教授 （Prof Ang Wei Tech）],[#strong[论文题目:] Towards Personalized Robot Assistance: Integrating User Preferences in Robot-Assisted Feeding \(人机协同下的个性化助餐：基于用户偏好的机器人赋能\)],[#strong[研究兴趣:] : 机器人学习（强化学习、模仿学习）、人机交互、大模型],)
+    #v(design-highlights-top-margin);#highlights([#strong[导师:] 洪伟德教授 （Prof Ang Wei Tech）],[#strong[论文题目:] Towards Personalized Robot Assistance: Integrating User Preferences in Robot-Assisted Feeding \(人机协同下的个性化助餐：基于用户偏好的机器人赋能\)],[#strong[研究兴趣:] 机器人学习（强化学习、模仿学习）、人机交互、大模型],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -523,25 +557,10 @@
 
 #two-col-entry(
   left-content: [
-    #strong[具身智能数据工厂（高效机器人数据采集与学习平台）] 
-  ],
-  right-content: [
-    2025 -- 至今
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([共同主导高保真遥操作系统的整体架构设计，实现双臂与灵巧手的连续零停顿动作映射，显著降低操作员认知负荷，保持人类运动与机器人执行的高度一致性。],[打造异构机器人共享的数据工厂，融合无标记三维动作捕捉、多模态传感同步与实时动作重定向，支持仿真与真实平台间的高效切换。],[探索面向下一代策略训练的数据管线，目标构建大规模高保真多模态数据集，为视觉-语言-动作（VLA）模型与扩散策略（diffusion policies）等提供高质量训练数据，提升策略的泛化性与稳健性。],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
     #strong[机械辅助喂食系统] 
   ],
   right-content: [
-    2022 -- 至今
+    2022 -- 2025
   ],
 )
 #one-col-entry(
@@ -562,55 +581,6 @@
 #one-col-entry(
   content: [
     #v(design-highlights-top-margin);#highlights([开发了点选式人机交互界面，将物体分割、抓取评分与抓取循环集成在一起，在杂乱场景中简化用户输入并提升选择效率。],[提出基于 POMDP 的人机协同控制框架，可在意图不确定时主动向用户提问，从而减少冲突操作并加快任务完成。],)
-  ],
-)
-
-
-
-== 工作与实习经历
-
-
-#two-col-entry(
-  left-content: [
-    #strong[助理研究员], 南洋理工大学 -- 新加坡
-  ],
-  right-content: [
-    2021-08 -- 至今
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([主导基于ROS\/ROS2的系统集成与软硬件接口开发，与研究团队成员及学生协作制定技术目标，并在仿真环境与物理机器人系统上进行原型验证。],[负责项目规划、资源协调与伦理合规管理，消除算力瓶颈等运营障碍，确保项目按计划推进。],[指导了8个本科生毕业设计项目，设定研究目标，提供技术实现与方法技能发展的引导。],[撰写并参与具有竞争力的基金申请，为在研课题与新合作计划争取资金支持。],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[SaaS销售运营实习生], #link("https://www.bytedance.com/en/")[字节跳动] -- 新加坡
-  ],
-  right-content: [
-    2020.05 – 2020.07
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([设计并优化飞书（Lark）亚太区运营仪表板，实现关键指标可视化，支持区域团队数据驱动决策。],[改善Salesforce数据架构，优化业务流程，提升区域业务数据一致性与运营效率。],[分析用户行为数据（DAU／租户健康评分），以协助制定产品推广策略并评估市场适应性],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[工程实习生], #link("https://oishii.com/")[Oishii] -- 新泽西州，美国
-  ],
-  right-content: [
-    2020.01 – 2020.03
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([领导农场基础设施扩展项目的规划与推进，在技术可行性、成本控制与生产连续性间实现有效平衡。],[主导农场自动化的传感器-执行器系统实施，工作涵盖方案设计、部署、电气布线、系统集成与布局规划。],[协同外部承包商与内部运营团队，识别并解决基础设施瓶颈，优化产线运作效率。],)
   ],
 )
 
